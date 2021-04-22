@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82a6d1bb-2285-4b79-9299-2d5302ea6582" name="poem" url="http://poem.xinball.top">
+        <fileTransfer rootFolder="/www/wwwroot/poem" accessType="SFTP" host="xinball.top" port="22" sshConfigId="6013d8ea-d1db-4d6e-b4a9-ad9bde7f9ee0" sshConfig="root@xinball.top:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
