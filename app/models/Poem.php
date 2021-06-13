@@ -22,7 +22,7 @@ class Poem extends Model
      * 这里就是 poem 表
      * @var string
      */
-    protected $table = 'Poem';
+    protected $table = 'poem';
     // 数据库主键
     protected $primary = 'pid';
 
@@ -44,5 +44,32 @@ class Poem extends Model
         $arrSql="select * from `getPoem`";
         $countSql="select count(pid) `count` from `getPoem`";
         $this->execute_page($pager,$arrSql,$countSql);
+    }
+
+    public function getDynastyPoemCount(){
+        $sql="select poemcount value,dname name from `getDynasty` where active=1 order by poemcount DESC";
+        $sth = Db::pdo()->prepare($sql);
+        $sth->execute();
+        return $sth->fetchAll();
+    }
+    public function getPoemCountByDid($did){
+        $sql="select count(pid) from `poem` where active=1 and did=?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$did]);
+        $sth->execute();
+        return $sth->fetch();
+    }
+    public function getPoemCountByAid($aid){
+        $sql="select count(pid) from `poem` where active=1 and aid=?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$aid]);
+        $sth->execute();
+        return $sth->fetch();
+    }
+    public function getPoemCount(){
+        $sql="select count(pid) value from `poem` where active=1";
+        $sth = Db::pdo()->prepare($sql);
+        $sth->execute();
+        return $sth->fetch();
     }
 }

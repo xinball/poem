@@ -242,6 +242,42 @@ food|schema||food||TRIGGER|G
 food|schema||food|localhost|TRIGGER|G
 food|schema||food||UPDATE|G
 food|schema||food|localhost|UPDATE|G
+hyf|schema||hyf||ALTER|G
+hyf|schema||hyf|localhost|ALTER|G
+hyf|schema||hyf||ALTER ROUTINE|G
+hyf|schema||hyf|localhost|ALTER ROUTINE|G
+hyf|schema||hyf||CREATE|G
+hyf|schema||hyf|localhost|CREATE|G
+hyf|schema||hyf||CREATE ROUTINE|G
+hyf|schema||hyf|localhost|CREATE ROUTINE|G
+hyf|schema||hyf||CREATE TEMPORARY TABLES|G
+hyf|schema||hyf|localhost|CREATE TEMPORARY TABLES|G
+hyf|schema||hyf||CREATE VIEW|G
+hyf|schema||hyf|localhost|CREATE VIEW|G
+hyf|schema||hyf||DELETE|G
+hyf|schema||hyf|localhost|DELETE|G
+hyf|schema||hyf||DROP|G
+hyf|schema||hyf|localhost|DROP|G
+hyf|schema||hyf||EVENT|G
+hyf|schema||hyf|localhost|EVENT|G
+hyf|schema||hyf||EXECUTE|G
+hyf|schema||hyf|localhost|EXECUTE|G
+hyf|schema||hyf||INDEX|G
+hyf|schema||hyf|localhost|INDEX|G
+hyf|schema||hyf||INSERT|G
+hyf|schema||hyf|localhost|INSERT|G
+hyf|schema||hyf||LOCK TABLES|G
+hyf|schema||hyf|localhost|LOCK TABLES|G
+hyf|schema||hyf||REFERENCES|G
+hyf|schema||hyf|localhost|REFERENCES|G
+hyf|schema||hyf||SELECT|G
+hyf|schema||hyf|localhost|SELECT|G
+hyf|schema||hyf||SHOW VIEW|G
+hyf|schema||hyf|localhost|SHOW VIEW|G
+hyf|schema||hyf||TRIGGER|G
+hyf|schema||hyf|localhost|TRIGGER|G
+hyf|schema||hyf||UPDATE|G
+hyf|schema||hyf|localhost|UPDATE|G
 img|schema||img||ALTER|G
 img|schema||img|localhost|ALTER|G
 img|schema||img||ALTER ROUTINE|G
@@ -567,7 +603,79 @@ site2|schema||site2|127.0.0.1|TRIGGER|G
 site2|schema||site2|localhost|TRIGGER|G
 site2|schema||site2|127.0.0.1|UPDATE|G
 site2|schema||site2|localhost|UPDATE|G
+store|schema||store||ALTER|G
+store|schema||store|localhost|ALTER|G
+store|schema||store||ALTER ROUTINE|G
+store|schema||store|localhost|ALTER ROUTINE|G
+store|schema||store||CREATE|G
+store|schema||store|localhost|CREATE|G
+store|schema||store||CREATE ROUTINE|G
+store|schema||store|localhost|CREATE ROUTINE|G
+store|schema||store||CREATE TEMPORARY TABLES|G
+store|schema||store|localhost|CREATE TEMPORARY TABLES|G
+store|schema||store||CREATE VIEW|G
+store|schema||store|localhost|CREATE VIEW|G
+store|schema||store||DELETE|G
+store|schema||store|localhost|DELETE|G
+store|schema||store||DROP|G
+store|schema||store|localhost|DROP|G
+store|schema||store||EVENT|G
+store|schema||store|localhost|EVENT|G
+store|schema||store||EXECUTE|G
+store|schema||store|localhost|EXECUTE|G
+store|schema||store||INDEX|G
+store|schema||store|localhost|INDEX|G
+store|schema||store||INSERT|G
+store|schema||store|localhost|INSERT|G
+store|schema||store||LOCK TABLES|G
+store|schema||store|localhost|LOCK TABLES|G
+store|schema||store||REFERENCES|G
+store|schema||store|localhost|REFERENCES|G
+store|schema||store||SELECT|G
+store|schema||store|localhost|SELECT|G
+store|schema||store||SHOW VIEW|G
+store|schema||store|localhost|SHOW VIEW|G
+store|schema||store||TRIGGER|G
+store|schema||store|localhost|TRIGGER|G
+store|schema||store||UPDATE|G
+store|schema||store|localhost|UPDATE|G
 sys|schema||mysql.sys|localhost|TRIGGER|G
+tms|schema||tms||ALTER|G
+tms|schema||tms|localhost|ALTER|G
+tms|schema||tms||ALTER ROUTINE|G
+tms|schema||tms|localhost|ALTER ROUTINE|G
+tms|schema||tms||CREATE|G
+tms|schema||tms|localhost|CREATE|G
+tms|schema||tms||CREATE ROUTINE|G
+tms|schema||tms|localhost|CREATE ROUTINE|G
+tms|schema||tms||CREATE TEMPORARY TABLES|G
+tms|schema||tms|localhost|CREATE TEMPORARY TABLES|G
+tms|schema||tms||CREATE VIEW|G
+tms|schema||tms|localhost|CREATE VIEW|G
+tms|schema||tms||DELETE|G
+tms|schema||tms|localhost|DELETE|G
+tms|schema||tms||DROP|G
+tms|schema||tms|localhost|DROP|G
+tms|schema||tms||EVENT|G
+tms|schema||tms|localhost|EVENT|G
+tms|schema||tms||EXECUTE|G
+tms|schema||tms|localhost|EXECUTE|G
+tms|schema||tms||INDEX|G
+tms|schema||tms|localhost|INDEX|G
+tms|schema||tms||INSERT|G
+tms|schema||tms|localhost|INSERT|G
+tms|schema||tms||LOCK TABLES|G
+tms|schema||tms|localhost|LOCK TABLES|G
+tms|schema||tms||REFERENCES|G
+tms|schema||tms|localhost|REFERENCES|G
+tms|schema||tms||SELECT|G
+tms|schema||tms|localhost|SELECT|G
+tms|schema||tms||SHOW VIEW|G
+tms|schema||tms|localhost|SHOW VIEW|G
+tms|schema||tms||TRIGGER|G
+tms|schema||tms|localhost|TRIGGER|G
+tms|schema||tms||UPDATE|G
+tms|schema||tms|localhost|UPDATE|G
 v|schema||v|127.0.0.1|ALTER|G
 v|schema||v|localhost|ALTER|G
 v|schema||v|127.0.0.1|ALTER ROUTINE|G
@@ -640,41 +748,41 @@ www|schema||www||TRIGGER|G
 www|schema||www|localhost|TRIGGER|G
 www|schema||www||UPDATE|G
 www|schema||www|localhost|UPDATE|G
-ypy|schema||ypy|127.0.0.1|ALTER|G
+ypy|schema||ypy||ALTER|G
 ypy|schema||ypy|localhost|ALTER|G
-ypy|schema||ypy|127.0.0.1|ALTER ROUTINE|G
+ypy|schema||ypy||ALTER ROUTINE|G
 ypy|schema||ypy|localhost|ALTER ROUTINE|G
-ypy|schema||ypy|127.0.0.1|CREATE|G
+ypy|schema||ypy||CREATE|G
 ypy|schema||ypy|localhost|CREATE|G
-ypy|schema||ypy|127.0.0.1|CREATE ROUTINE|G
+ypy|schema||ypy||CREATE ROUTINE|G
 ypy|schema||ypy|localhost|CREATE ROUTINE|G
-ypy|schema||ypy|127.0.0.1|CREATE TEMPORARY TABLES|G
+ypy|schema||ypy||CREATE TEMPORARY TABLES|G
 ypy|schema||ypy|localhost|CREATE TEMPORARY TABLES|G
-ypy|schema||ypy|127.0.0.1|CREATE VIEW|G
+ypy|schema||ypy||CREATE VIEW|G
 ypy|schema||ypy|localhost|CREATE VIEW|G
-ypy|schema||ypy|127.0.0.1|DELETE|G
+ypy|schema||ypy||DELETE|G
 ypy|schema||ypy|localhost|DELETE|G
-ypy|schema||ypy|127.0.0.1|DROP|G
+ypy|schema||ypy||DROP|G
 ypy|schema||ypy|localhost|DROP|G
-ypy|schema||ypy|127.0.0.1|EVENT|G
+ypy|schema||ypy||EVENT|G
 ypy|schema||ypy|localhost|EVENT|G
-ypy|schema||ypy|127.0.0.1|EXECUTE|G
+ypy|schema||ypy||EXECUTE|G
 ypy|schema||ypy|localhost|EXECUTE|G
-ypy|schema||ypy|127.0.0.1|INDEX|G
+ypy|schema||ypy||INDEX|G
 ypy|schema||ypy|localhost|INDEX|G
-ypy|schema||ypy|127.0.0.1|INSERT|G
+ypy|schema||ypy||INSERT|G
 ypy|schema||ypy|localhost|INSERT|G
-ypy|schema||ypy|127.0.0.1|LOCK TABLES|G
+ypy|schema||ypy||LOCK TABLES|G
 ypy|schema||ypy|localhost|LOCK TABLES|G
-ypy|schema||ypy|127.0.0.1|REFERENCES|G
+ypy|schema||ypy||REFERENCES|G
 ypy|schema||ypy|localhost|REFERENCES|G
-ypy|schema||ypy|127.0.0.1|SELECT|G
+ypy|schema||ypy||SELECT|G
 ypy|schema||ypy|localhost|SELECT|G
-ypy|schema||ypy|127.0.0.1|SHOW VIEW|G
+ypy|schema||ypy||SHOW VIEW|G
 ypy|schema||ypy|localhost|SHOW VIEW|G
-ypy|schema||ypy|127.0.0.1|TRIGGER|G
+ypy|schema||ypy||TRIGGER|G
 ypy|schema||ypy|localhost|TRIGGER|G
-ypy|schema||ypy|127.0.0.1|UPDATE|G
+ypy|schema||ypy||UPDATE|G
 ypy|schema||ypy|localhost|UPDATE|G</Grants>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
@@ -692,930 +800,983 @@ ypy|schema||ypy|localhost|UPDATE|G</Grants>
     <schema id="5" parent="1" name="cloud">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="6" parent="1" name="food">
-      <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="7" parent="1" name="img">
+    <schema id="6" parent="1" name="course">
       <Collation>utf8mb4_general_ci</Collation>
     </schema>
-    <schema id="8" parent="1" name="information_schema">
+    <schema id="7" parent="1" name="food">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="9" parent="1" name="mall">
+    <schema id="8" parent="1" name="hyf">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="10" parent="1" name="mysql">
+    <schema id="9" parent="1" name="img">
       <Collation>utf8mb4_general_ci</Collation>
     </schema>
-    <schema id="11" parent="1" name="nov">
+    <schema id="10" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="12" parent="1" name="nzq">
+    <schema id="11" parent="1" name="mall">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="13" parent="1" name="performance_schema">
+    <schema id="12" parent="1" name="mysql">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="nov">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="14" parent="1" name="photo">
+    <schema id="14" parent="1" name="nzq">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="15" parent="1" name="poem">
+    <schema id="15" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="photo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="poem">
       <Current>1</Current>
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="shop">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="16" parent="1" name="shop">
+    <schema id="19" parent="1" name="site">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="17" parent="1" name="site">
+    <schema id="20" parent="1" name="site2">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="18" parent="1" name="site2">
+    <schema id="21" parent="1" name="store">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="19" parent="1" name="sys">
+    <schema id="22" parent="1" name="sys">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="20" parent="1" name="v">
+    <schema id="23" parent="1" name="tms">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="21" parent="1" name="www">
+    <schema id="24" parent="1" name="v">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="22" parent="1" name="ypy">
+    <schema id="25" parent="1" name="www">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <collation id="23" parent="1" name="armscii8_bin">
+    <schema id="26" parent="1" name="ypy">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="27" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
-    <collation id="24" parent="1" name="armscii8_general_ci">
+    <collation id="28" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="25" parent="1" name="ascii_bin">
+    <collation id="29" parent="1" name="ascii_bin">
       <Charset>ascii</Charset>
     </collation>
-    <collation id="26" parent="1" name="ascii_general_ci">
+    <collation id="30" parent="1" name="ascii_general_ci">
       <Charset>ascii</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="27" parent="1" name="big5_bin">
+    <collation id="31" parent="1" name="big5_bin">
       <Charset>big5</Charset>
     </collation>
-    <collation id="28" parent="1" name="big5_chinese_ci">
+    <collation id="32" parent="1" name="big5_chinese_ci">
       <Charset>big5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="29" parent="1" name="binary">
+    <collation id="33" parent="1" name="binary">
       <Charset>binary</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="30" parent="1" name="cp1250_bin">
+    <collation id="34" parent="1" name="cp1250_bin">
       <Charset>cp1250</Charset>
     </collation>
-    <collation id="31" parent="1" name="cp1250_croatian_ci">
+    <collation id="35" parent="1" name="cp1250_croatian_ci">
       <Charset>cp1250</Charset>
     </collation>
-    <collation id="32" parent="1" name="cp1250_czech_cs">
+    <collation id="36" parent="1" name="cp1250_czech_cs">
       <Charset>cp1250</Charset>
     </collation>
-    <collation id="33" parent="1" name="cp1250_general_ci">
+    <collation id="37" parent="1" name="cp1250_general_ci">
       <Charset>cp1250</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="34" parent="1" name="cp1250_polish_ci">
+    <collation id="38" parent="1" name="cp1250_polish_ci">
       <Charset>cp1250</Charset>
     </collation>
-    <collation id="35" parent="1" name="cp1251_bin">
+    <collation id="39" parent="1" name="cp1251_bin">
       <Charset>cp1251</Charset>
     </collation>
-    <collation id="36" parent="1" name="cp1251_bulgarian_ci">
+    <collation id="40" parent="1" name="cp1251_bulgarian_ci">
       <Charset>cp1251</Charset>
     </collation>
-    <collation id="37" parent="1" name="cp1251_general_ci">
+    <collation id="41" parent="1" name="cp1251_general_ci">
       <Charset>cp1251</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="38" parent="1" name="cp1251_general_cs">
+    <collation id="42" parent="1" name="cp1251_general_cs">
       <Charset>cp1251</Charset>
     </collation>
-    <collation id="39" parent="1" name="cp1251_ukrainian_ci">
+    <collation id="43" parent="1" name="cp1251_ukrainian_ci">
       <Charset>cp1251</Charset>
     </collation>
-    <collation id="40" parent="1" name="cp1256_bin">
+    <collation id="44" parent="1" name="cp1256_bin">
       <Charset>cp1256</Charset>
     </collation>
-    <collation id="41" parent="1" name="cp1256_general_ci">
+    <collation id="45" parent="1" name="cp1256_general_ci">
       <Charset>cp1256</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="42" parent="1" name="cp1257_bin">
+    <collation id="46" parent="1" name="cp1257_bin">
       <Charset>cp1257</Charset>
     </collation>
-    <collation id="43" parent="1" name="cp1257_general_ci">
+    <collation id="47" parent="1" name="cp1257_general_ci">
       <Charset>cp1257</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="44" parent="1" name="cp1257_lithuanian_ci">
+    <collation id="48" parent="1" name="cp1257_lithuanian_ci">
       <Charset>cp1257</Charset>
     </collation>
-    <collation id="45" parent="1" name="cp850_bin">
+    <collation id="49" parent="1" name="cp850_bin">
       <Charset>cp850</Charset>
     </collation>
-    <collation id="46" parent="1" name="cp850_general_ci">
+    <collation id="50" parent="1" name="cp850_general_ci">
       <Charset>cp850</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="47" parent="1" name="cp852_bin">
+    <collation id="51" parent="1" name="cp852_bin">
       <Charset>cp852</Charset>
     </collation>
-    <collation id="48" parent="1" name="cp852_general_ci">
+    <collation id="52" parent="1" name="cp852_general_ci">
       <Charset>cp852</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="49" parent="1" name="cp866_bin">
+    <collation id="53" parent="1" name="cp866_bin">
       <Charset>cp866</Charset>
     </collation>
-    <collation id="50" parent="1" name="cp866_general_ci">
+    <collation id="54" parent="1" name="cp866_general_ci">
       <Charset>cp866</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="51" parent="1" name="cp932_bin">
+    <collation id="55" parent="1" name="cp932_bin">
       <Charset>cp932</Charset>
     </collation>
-    <collation id="52" parent="1" name="cp932_japanese_ci">
+    <collation id="56" parent="1" name="cp932_japanese_ci">
       <Charset>cp932</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="53" parent="1" name="dec8_bin">
+    <collation id="57" parent="1" name="dec8_bin">
       <Charset>dec8</Charset>
     </collation>
-    <collation id="54" parent="1" name="dec8_swedish_ci">
+    <collation id="58" parent="1" name="dec8_swedish_ci">
       <Charset>dec8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="55" parent="1" name="eucjpms_bin">
+    <collation id="59" parent="1" name="eucjpms_bin">
       <Charset>eucjpms</Charset>
     </collation>
-    <collation id="56" parent="1" name="eucjpms_japanese_ci">
+    <collation id="60" parent="1" name="eucjpms_japanese_ci">
       <Charset>eucjpms</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="57" parent="1" name="euckr_bin">
+    <collation id="61" parent="1" name="euckr_bin">
       <Charset>euckr</Charset>
     </collation>
-    <collation id="58" parent="1" name="euckr_korean_ci">
+    <collation id="62" parent="1" name="euckr_korean_ci">
       <Charset>euckr</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="59" parent="1" name="gb18030_bin">
+    <collation id="63" parent="1" name="gb18030_bin">
       <Charset>gb18030</Charset>
     </collation>
-    <collation id="60" parent="1" name="gb18030_chinese_ci">
+    <collation id="64" parent="1" name="gb18030_chinese_ci">
       <Charset>gb18030</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="61" parent="1" name="gb18030_unicode_520_ci">
+    <collation id="65" parent="1" name="gb18030_unicode_520_ci">
       <Charset>gb18030</Charset>
     </collation>
-    <collation id="62" parent="1" name="gb2312_bin">
+    <collation id="66" parent="1" name="gb2312_bin">
       <Charset>gb2312</Charset>
     </collation>
-    <collation id="63" parent="1" name="gb2312_chinese_ci">
+    <collation id="67" parent="1" name="gb2312_chinese_ci">
       <Charset>gb2312</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="64" parent="1" name="gbk_bin">
+    <collation id="68" parent="1" name="gbk_bin">
       <Charset>gbk</Charset>
     </collation>
-    <collation id="65" parent="1" name="gbk_chinese_ci">
+    <collation id="69" parent="1" name="gbk_chinese_ci">
       <Charset>gbk</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="66" parent="1" name="geostd8_bin">
+    <collation id="70" parent="1" name="geostd8_bin">
       <Charset>geostd8</Charset>
     </collation>
-    <collation id="67" parent="1" name="geostd8_general_ci">
+    <collation id="71" parent="1" name="geostd8_general_ci">
       <Charset>geostd8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="68" parent="1" name="greek_bin">
+    <collation id="72" parent="1" name="greek_bin">
       <Charset>greek</Charset>
     </collation>
-    <collation id="69" parent="1" name="greek_general_ci">
+    <collation id="73" parent="1" name="greek_general_ci">
       <Charset>greek</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="70" parent="1" name="hebrew_bin">
+    <collation id="74" parent="1" name="hebrew_bin">
       <Charset>hebrew</Charset>
     </collation>
-    <collation id="71" parent="1" name="hebrew_general_ci">
+    <collation id="75" parent="1" name="hebrew_general_ci">
       <Charset>hebrew</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="72" parent="1" name="hp8_bin">
+    <collation id="76" parent="1" name="hp8_bin">
       <Charset>hp8</Charset>
     </collation>
-    <collation id="73" parent="1" name="hp8_english_ci">
+    <collation id="77" parent="1" name="hp8_english_ci">
       <Charset>hp8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="74" parent="1" name="keybcs2_bin">
+    <collation id="78" parent="1" name="keybcs2_bin">
       <Charset>keybcs2</Charset>
     </collation>
-    <collation id="75" parent="1" name="keybcs2_general_ci">
+    <collation id="79" parent="1" name="keybcs2_general_ci">
       <Charset>keybcs2</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="76" parent="1" name="koi8r_bin">
+    <collation id="80" parent="1" name="koi8r_bin">
       <Charset>koi8r</Charset>
     </collation>
-    <collation id="77" parent="1" name="koi8r_general_ci">
+    <collation id="81" parent="1" name="koi8r_general_ci">
       <Charset>koi8r</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="78" parent="1" name="koi8u_bin">
+    <collation id="82" parent="1" name="koi8u_bin">
       <Charset>koi8u</Charset>
     </collation>
-    <collation id="79" parent="1" name="koi8u_general_ci">
+    <collation id="83" parent="1" name="koi8u_general_ci">
       <Charset>koi8u</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="80" parent="1" name="latin1_bin">
+    <collation id="84" parent="1" name="latin1_bin">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="81" parent="1" name="latin1_danish_ci">
+    <collation id="85" parent="1" name="latin1_danish_ci">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="82" parent="1" name="latin1_general_ci">
+    <collation id="86" parent="1" name="latin1_general_ci">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="83" parent="1" name="latin1_general_cs">
+    <collation id="87" parent="1" name="latin1_general_cs">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="84" parent="1" name="latin1_german1_ci">
+    <collation id="88" parent="1" name="latin1_german1_ci">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="85" parent="1" name="latin1_german2_ci">
+    <collation id="89" parent="1" name="latin1_german2_ci">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="86" parent="1" name="latin1_spanish_ci">
+    <collation id="90" parent="1" name="latin1_spanish_ci">
       <Charset>latin1</Charset>
     </collation>
-    <collation id="87" parent="1" name="latin1_swedish_ci">
+    <collation id="91" parent="1" name="latin1_swedish_ci">
       <Charset>latin1</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="88" parent="1" name="latin2_bin">
+    <collation id="92" parent="1" name="latin2_bin">
       <Charset>latin2</Charset>
     </collation>
-    <collation id="89" parent="1" name="latin2_croatian_ci">
+    <collation id="93" parent="1" name="latin2_croatian_ci">
       <Charset>latin2</Charset>
     </collation>
-    <collation id="90" parent="1" name="latin2_czech_cs">
+    <collation id="94" parent="1" name="latin2_czech_cs">
       <Charset>latin2</Charset>
     </collation>
-    <collation id="91" parent="1" name="latin2_general_ci">
+    <collation id="95" parent="1" name="latin2_general_ci">
       <Charset>latin2</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="92" parent="1" name="latin2_hungarian_ci">
+    <collation id="96" parent="1" name="latin2_hungarian_ci">
       <Charset>latin2</Charset>
     </collation>
-    <collation id="93" parent="1" name="latin5_bin">
+    <collation id="97" parent="1" name="latin5_bin">
       <Charset>latin5</Charset>
     </collation>
-    <collation id="94" parent="1" name="latin5_turkish_ci">
+    <collation id="98" parent="1" name="latin5_turkish_ci">
       <Charset>latin5</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="95" parent="1" name="latin7_bin">
+    <collation id="99" parent="1" name="latin7_bin">
       <Charset>latin7</Charset>
     </collation>
-    <collation id="96" parent="1" name="latin7_estonian_cs">
+    <collation id="100" parent="1" name="latin7_estonian_cs">
       <Charset>latin7</Charset>
     </collation>
-    <collation id="97" parent="1" name="latin7_general_ci">
+    <collation id="101" parent="1" name="latin7_general_ci">
       <Charset>latin7</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="98" parent="1" name="latin7_general_cs">
+    <collation id="102" parent="1" name="latin7_general_cs">
       <Charset>latin7</Charset>
     </collation>
-    <collation id="99" parent="1" name="macce_bin">
+    <collation id="103" parent="1" name="macce_bin">
       <Charset>macce</Charset>
     </collation>
-    <collation id="100" parent="1" name="macce_general_ci">
+    <collation id="104" parent="1" name="macce_general_ci">
       <Charset>macce</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="101" parent="1" name="macroman_bin">
+    <collation id="105" parent="1" name="macroman_bin">
       <Charset>macroman</Charset>
     </collation>
-    <collation id="102" parent="1" name="macroman_general_ci">
+    <collation id="106" parent="1" name="macroman_general_ci">
       <Charset>macroman</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="103" parent="1" name="sjis_bin">
+    <collation id="107" parent="1" name="sjis_bin">
       <Charset>sjis</Charset>
     </collation>
-    <collation id="104" parent="1" name="sjis_japanese_ci">
+    <collation id="108" parent="1" name="sjis_japanese_ci">
       <Charset>sjis</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="105" parent="1" name="swe7_bin">
+    <collation id="109" parent="1" name="swe7_bin">
       <Charset>swe7</Charset>
     </collation>
-    <collation id="106" parent="1" name="swe7_swedish_ci">
+    <collation id="110" parent="1" name="swe7_swedish_ci">
       <Charset>swe7</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="107" parent="1" name="tis620_bin">
+    <collation id="111" parent="1" name="tis620_bin">
       <Charset>tis620</Charset>
     </collation>
-    <collation id="108" parent="1" name="tis620_thai_ci">
+    <collation id="112" parent="1" name="tis620_thai_ci">
       <Charset>tis620</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="109" parent="1" name="ucs2_bin">
+    <collation id="113" parent="1" name="ucs2_bin">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="110" parent="1" name="ucs2_croatian_ci">
+    <collation id="114" parent="1" name="ucs2_croatian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="111" parent="1" name="ucs2_czech_ci">
+    <collation id="115" parent="1" name="ucs2_czech_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="112" parent="1" name="ucs2_danish_ci">
+    <collation id="116" parent="1" name="ucs2_danish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="113" parent="1" name="ucs2_esperanto_ci">
+    <collation id="117" parent="1" name="ucs2_esperanto_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="114" parent="1" name="ucs2_estonian_ci">
+    <collation id="118" parent="1" name="ucs2_estonian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="115" parent="1" name="ucs2_general_ci">
+    <collation id="119" parent="1" name="ucs2_general_ci">
       <Charset>ucs2</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="116" parent="1" name="ucs2_general_mysql500_ci">
+    <collation id="120" parent="1" name="ucs2_general_mysql500_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="117" parent="1" name="ucs2_german2_ci">
+    <collation id="121" parent="1" name="ucs2_german2_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="118" parent="1" name="ucs2_hungarian_ci">
+    <collation id="122" parent="1" name="ucs2_hungarian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="119" parent="1" name="ucs2_icelandic_ci">
+    <collation id="123" parent="1" name="ucs2_icelandic_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="120" parent="1" name="ucs2_latvian_ci">
+    <collation id="124" parent="1" name="ucs2_latvian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="121" parent="1" name="ucs2_lithuanian_ci">
+    <collation id="125" parent="1" name="ucs2_lithuanian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="122" parent="1" name="ucs2_persian_ci">
+    <collation id="126" parent="1" name="ucs2_persian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="123" parent="1" name="ucs2_polish_ci">
+    <collation id="127" parent="1" name="ucs2_polish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="124" parent="1" name="ucs2_roman_ci">
+    <collation id="128" parent="1" name="ucs2_roman_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="125" parent="1" name="ucs2_romanian_ci">
+    <collation id="129" parent="1" name="ucs2_romanian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="126" parent="1" name="ucs2_sinhala_ci">
+    <collation id="130" parent="1" name="ucs2_sinhala_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="127" parent="1" name="ucs2_slovak_ci">
+    <collation id="131" parent="1" name="ucs2_slovak_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="128" parent="1" name="ucs2_slovenian_ci">
+    <collation id="132" parent="1" name="ucs2_slovenian_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="129" parent="1" name="ucs2_spanish2_ci">
+    <collation id="133" parent="1" name="ucs2_spanish2_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="130" parent="1" name="ucs2_spanish_ci">
+    <collation id="134" parent="1" name="ucs2_spanish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="131" parent="1" name="ucs2_swedish_ci">
+    <collation id="135" parent="1" name="ucs2_swedish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="132" parent="1" name="ucs2_turkish_ci">
+    <collation id="136" parent="1" name="ucs2_turkish_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="133" parent="1" name="ucs2_unicode_520_ci">
+    <collation id="137" parent="1" name="ucs2_unicode_520_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="134" parent="1" name="ucs2_unicode_ci">
+    <collation id="138" parent="1" name="ucs2_unicode_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="135" parent="1" name="ucs2_vietnamese_ci">
+    <collation id="139" parent="1" name="ucs2_vietnamese_ci">
       <Charset>ucs2</Charset>
     </collation>
-    <collation id="136" parent="1" name="ujis_bin">
+    <collation id="140" parent="1" name="ujis_bin">
       <Charset>ujis</Charset>
     </collation>
-    <collation id="137" parent="1" name="ujis_japanese_ci">
+    <collation id="141" parent="1" name="ujis_japanese_ci">
       <Charset>ujis</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="138" parent="1" name="utf16_bin">
+    <collation id="142" parent="1" name="utf16_bin">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="139" parent="1" name="utf16_croatian_ci">
+    <collation id="143" parent="1" name="utf16_croatian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="140" parent="1" name="utf16_czech_ci">
+    <collation id="144" parent="1" name="utf16_czech_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="141" parent="1" name="utf16_danish_ci">
+    <collation id="145" parent="1" name="utf16_danish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="142" parent="1" name="utf16_esperanto_ci">
+    <collation id="146" parent="1" name="utf16_esperanto_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="143" parent="1" name="utf16_estonian_ci">
+    <collation id="147" parent="1" name="utf16_estonian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="144" parent="1" name="utf16_general_ci">
+    <collation id="148" parent="1" name="utf16_general_ci">
       <Charset>utf16</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="145" parent="1" name="utf16_german2_ci">
+    <collation id="149" parent="1" name="utf16_german2_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="146" parent="1" name="utf16_hungarian_ci">
+    <collation id="150" parent="1" name="utf16_hungarian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="147" parent="1" name="utf16_icelandic_ci">
+    <collation id="151" parent="1" name="utf16_icelandic_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="148" parent="1" name="utf16_latvian_ci">
+    <collation id="152" parent="1" name="utf16_latvian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="149" parent="1" name="utf16_lithuanian_ci">
+    <collation id="153" parent="1" name="utf16_lithuanian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="150" parent="1" name="utf16_persian_ci">
+    <collation id="154" parent="1" name="utf16_persian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="151" parent="1" name="utf16_polish_ci">
+    <collation id="155" parent="1" name="utf16_polish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="152" parent="1" name="utf16_roman_ci">
+    <collation id="156" parent="1" name="utf16_roman_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="153" parent="1" name="utf16_romanian_ci">
+    <collation id="157" parent="1" name="utf16_romanian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="154" parent="1" name="utf16_sinhala_ci">
+    <collation id="158" parent="1" name="utf16_sinhala_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="155" parent="1" name="utf16_slovak_ci">
+    <collation id="159" parent="1" name="utf16_slovak_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="156" parent="1" name="utf16_slovenian_ci">
+    <collation id="160" parent="1" name="utf16_slovenian_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="157" parent="1" name="utf16_spanish2_ci">
+    <collation id="161" parent="1" name="utf16_spanish2_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="158" parent="1" name="utf16_spanish_ci">
+    <collation id="162" parent="1" name="utf16_spanish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="159" parent="1" name="utf16_swedish_ci">
+    <collation id="163" parent="1" name="utf16_swedish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="160" parent="1" name="utf16_turkish_ci">
+    <collation id="164" parent="1" name="utf16_turkish_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="161" parent="1" name="utf16_unicode_520_ci">
+    <collation id="165" parent="1" name="utf16_unicode_520_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="162" parent="1" name="utf16_unicode_ci">
+    <collation id="166" parent="1" name="utf16_unicode_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="163" parent="1" name="utf16_vietnamese_ci">
+    <collation id="167" parent="1" name="utf16_vietnamese_ci">
       <Charset>utf16</Charset>
     </collation>
-    <collation id="164" parent="1" name="utf16le_bin">
+    <collation id="168" parent="1" name="utf16le_bin">
       <Charset>utf16le</Charset>
     </collation>
-    <collation id="165" parent="1" name="utf16le_general_ci">
+    <collation id="169" parent="1" name="utf16le_general_ci">
       <Charset>utf16le</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="166" parent="1" name="utf32_bin">
+    <collation id="170" parent="1" name="utf32_bin">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="167" parent="1" name="utf32_croatian_ci">
+    <collation id="171" parent="1" name="utf32_croatian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="168" parent="1" name="utf32_czech_ci">
+    <collation id="172" parent="1" name="utf32_czech_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="169" parent="1" name="utf32_danish_ci">
+    <collation id="173" parent="1" name="utf32_danish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="170" parent="1" name="utf32_esperanto_ci">
+    <collation id="174" parent="1" name="utf32_esperanto_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="171" parent="1" name="utf32_estonian_ci">
+    <collation id="175" parent="1" name="utf32_estonian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="172" parent="1" name="utf32_general_ci">
+    <collation id="176" parent="1" name="utf32_general_ci">
       <Charset>utf32</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="173" parent="1" name="utf32_german2_ci">
+    <collation id="177" parent="1" name="utf32_german2_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="174" parent="1" name="utf32_hungarian_ci">
+    <collation id="178" parent="1" name="utf32_hungarian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="175" parent="1" name="utf32_icelandic_ci">
+    <collation id="179" parent="1" name="utf32_icelandic_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="176" parent="1" name="utf32_latvian_ci">
+    <collation id="180" parent="1" name="utf32_latvian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="177" parent="1" name="utf32_lithuanian_ci">
+    <collation id="181" parent="1" name="utf32_lithuanian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="178" parent="1" name="utf32_persian_ci">
+    <collation id="182" parent="1" name="utf32_persian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="179" parent="1" name="utf32_polish_ci">
+    <collation id="183" parent="1" name="utf32_polish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="180" parent="1" name="utf32_roman_ci">
+    <collation id="184" parent="1" name="utf32_roman_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="181" parent="1" name="utf32_romanian_ci">
+    <collation id="185" parent="1" name="utf32_romanian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="182" parent="1" name="utf32_sinhala_ci">
+    <collation id="186" parent="1" name="utf32_sinhala_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="183" parent="1" name="utf32_slovak_ci">
+    <collation id="187" parent="1" name="utf32_slovak_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="184" parent="1" name="utf32_slovenian_ci">
+    <collation id="188" parent="1" name="utf32_slovenian_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="185" parent="1" name="utf32_spanish2_ci">
+    <collation id="189" parent="1" name="utf32_spanish2_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="186" parent="1" name="utf32_spanish_ci">
+    <collation id="190" parent="1" name="utf32_spanish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="187" parent="1" name="utf32_swedish_ci">
+    <collation id="191" parent="1" name="utf32_swedish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="188" parent="1" name="utf32_turkish_ci">
+    <collation id="192" parent="1" name="utf32_turkish_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="189" parent="1" name="utf32_unicode_520_ci">
+    <collation id="193" parent="1" name="utf32_unicode_520_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="190" parent="1" name="utf32_unicode_ci">
+    <collation id="194" parent="1" name="utf32_unicode_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="191" parent="1" name="utf32_vietnamese_ci">
+    <collation id="195" parent="1" name="utf32_vietnamese_ci">
       <Charset>utf32</Charset>
     </collation>
-    <collation id="192" parent="1" name="utf8_bin">
+    <collation id="196" parent="1" name="utf8_bin">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="193" parent="1" name="utf8_croatian_ci">
+    <collation id="197" parent="1" name="utf8_croatian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="194" parent="1" name="utf8_czech_ci">
+    <collation id="198" parent="1" name="utf8_czech_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="195" parent="1" name="utf8_danish_ci">
+    <collation id="199" parent="1" name="utf8_danish_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="196" parent="1" name="utf8_esperanto_ci">
+    <collation id="200" parent="1" name="utf8_esperanto_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="197" parent="1" name="utf8_estonian_ci">
+    <collation id="201" parent="1" name="utf8_estonian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="198" parent="1" name="utf8_general_ci">
+    <collation id="202" parent="1" name="utf8_general_ci">
       <Charset>utf8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="199" parent="1" name="utf8_general_mysql500_ci">
+    <collation id="203" parent="1" name="utf8_general_mysql500_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="200" parent="1" name="utf8_german2_ci">
+    <collation id="204" parent="1" name="utf8_german2_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="201" parent="1" name="utf8_hungarian_ci">
+    <collation id="205" parent="1" name="utf8_hungarian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="202" parent="1" name="utf8_icelandic_ci">
+    <collation id="206" parent="1" name="utf8_icelandic_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="203" parent="1" name="utf8_latvian_ci">
+    <collation id="207" parent="1" name="utf8_latvian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="204" parent="1" name="utf8_lithuanian_ci">
+    <collation id="208" parent="1" name="utf8_lithuanian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="205" parent="1" name="utf8_persian_ci">
+    <collation id="209" parent="1" name="utf8_persian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="206" parent="1" name="utf8_polish_ci">
+    <collation id="210" parent="1" name="utf8_polish_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="207" parent="1" name="utf8_roman_ci">
+    <collation id="211" parent="1" name="utf8_roman_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="208" parent="1" name="utf8_romanian_ci">
+    <collation id="212" parent="1" name="utf8_romanian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="209" parent="1" name="utf8_sinhala_ci">
+    <collation id="213" parent="1" name="utf8_sinhala_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="210" parent="1" name="utf8_slovak_ci">
+    <collation id="214" parent="1" name="utf8_slovak_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="211" parent="1" name="utf8_slovenian_ci">
+    <collation id="215" parent="1" name="utf8_slovenian_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="212" parent="1" name="utf8_spanish2_ci">
+    <collation id="216" parent="1" name="utf8_spanish2_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="213" parent="1" name="utf8_spanish_ci">
+    <collation id="217" parent="1" name="utf8_spanish_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="214" parent="1" name="utf8_swedish_ci">
+    <collation id="218" parent="1" name="utf8_swedish_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="215" parent="1" name="utf8_turkish_ci">
+    <collation id="219" parent="1" name="utf8_turkish_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="216" parent="1" name="utf8_unicode_520_ci">
+    <collation id="220" parent="1" name="utf8_unicode_520_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="217" parent="1" name="utf8_unicode_ci">
+    <collation id="221" parent="1" name="utf8_unicode_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="218" parent="1" name="utf8_vietnamese_ci">
+    <collation id="222" parent="1" name="utf8_vietnamese_ci">
       <Charset>utf8</Charset>
     </collation>
-    <collation id="219" parent="1" name="utf8mb4_bin">
+    <collation id="223" parent="1" name="utf8mb4_bin">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="220" parent="1" name="utf8mb4_croatian_ci">
+    <collation id="224" parent="1" name="utf8mb4_croatian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="221" parent="1" name="utf8mb4_czech_ci">
+    <collation id="225" parent="1" name="utf8mb4_czech_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="222" parent="1" name="utf8mb4_danish_ci">
+    <collation id="226" parent="1" name="utf8mb4_danish_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="223" parent="1" name="utf8mb4_esperanto_ci">
+    <collation id="227" parent="1" name="utf8mb4_esperanto_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="224" parent="1" name="utf8mb4_estonian_ci">
+    <collation id="228" parent="1" name="utf8mb4_estonian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="225" parent="1" name="utf8mb4_general_ci">
+    <collation id="229" parent="1" name="utf8mb4_general_ci">
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>1</DefaultForCharset>
     </collation>
-    <collation id="226" parent="1" name="utf8mb4_german2_ci">
+    <collation id="230" parent="1" name="utf8mb4_german2_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="227" parent="1" name="utf8mb4_hungarian_ci">
+    <collation id="231" parent="1" name="utf8mb4_hungarian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="228" parent="1" name="utf8mb4_icelandic_ci">
+    <collation id="232" parent="1" name="utf8mb4_icelandic_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="229" parent="1" name="utf8mb4_latvian_ci">
+    <collation id="233" parent="1" name="utf8mb4_latvian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="230" parent="1" name="utf8mb4_lithuanian_ci">
+    <collation id="234" parent="1" name="utf8mb4_lithuanian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="231" parent="1" name="utf8mb4_persian_ci">
+    <collation id="235" parent="1" name="utf8mb4_persian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="232" parent="1" name="utf8mb4_polish_ci">
+    <collation id="236" parent="1" name="utf8mb4_polish_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="233" parent="1" name="utf8mb4_roman_ci">
+    <collation id="237" parent="1" name="utf8mb4_roman_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="234" parent="1" name="utf8mb4_romanian_ci">
+    <collation id="238" parent="1" name="utf8mb4_romanian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="235" parent="1" name="utf8mb4_sinhala_ci">
+    <collation id="239" parent="1" name="utf8mb4_sinhala_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="236" parent="1" name="utf8mb4_slovak_ci">
+    <collation id="240" parent="1" name="utf8mb4_slovak_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="237" parent="1" name="utf8mb4_slovenian_ci">
+    <collation id="241" parent="1" name="utf8mb4_slovenian_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="238" parent="1" name="utf8mb4_spanish2_ci">
+    <collation id="242" parent="1" name="utf8mb4_spanish2_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="239" parent="1" name="utf8mb4_spanish_ci">
+    <collation id="243" parent="1" name="utf8mb4_spanish_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="240" parent="1" name="utf8mb4_swedish_ci">
+    <collation id="244" parent="1" name="utf8mb4_swedish_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="241" parent="1" name="utf8mb4_turkish_ci">
+    <collation id="245" parent="1" name="utf8mb4_turkish_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="242" parent="1" name="utf8mb4_unicode_520_ci">
+    <collation id="246" parent="1" name="utf8mb4_unicode_520_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="243" parent="1" name="utf8mb4_unicode_ci">
+    <collation id="247" parent="1" name="utf8mb4_unicode_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <collation id="244" parent="1" name="utf8mb4_vietnamese_ci">
+    <collation id="248" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <user id="245" parent="1" name="bbs">
+    <user id="249" parent="1" name="bbs">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="246" parent="1" name="bbs">
+    <user id="250" parent="1" name="bbs">
       <Host>localhost</Host>
     </user>
-    <user id="247" parent="1" name="blog">
+    <user id="251" parent="1" name="blog">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="248" parent="1" name="blog">
+    <user id="252" parent="1" name="blog">
       <Host>localhost</Host>
     </user>
-    <user id="249" parent="1" name="cb">
+    <user id="253" parent="1" name="cb">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="250" parent="1" name="cb">
+    <user id="254" parent="1" name="cb">
       <Host>localhost</Host>
     </user>
-    <user id="251" parent="1" name="cloud">
+    <user id="255" parent="1" name="cloud">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="252" parent="1" name="cloud">
+    <user id="256" parent="1" name="cloud">
       <Host>localhost</Host>
     </user>
-    <user id="253" parent="1" name="food"/>
-    <user id="254" parent="1" name="food">
+    <user id="257" parent="1" name="food"/>
+    <user id="258" parent="1" name="food">
       <Host>localhost</Host>
     </user>
-    <user id="255" parent="1" name="img"/>
-    <user id="256" parent="1" name="img">
+    <user id="259" parent="1" name="hyf"/>
+    <user id="260" parent="1" name="hyf">
       <Host>localhost</Host>
     </user>
-    <user id="257" parent="1" name="mall">
+    <user id="261" parent="1" name="img"/>
+    <user id="262" parent="1" name="img">
+      <Host>localhost</Host>
+    </user>
+    <user id="263" parent="1" name="mall">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="258" parent="1" name="mall">
+    <user id="264" parent="1" name="mall">
       <Host>localhost</Host>
     </user>
-    <user id="259" parent="1" name="mysql.session">
+    <user id="265" parent="1" name="mysql.session">
       <Host>localhost</Host>
     </user>
-    <user id="260" parent="1" name="mysql.sys">
+    <user id="266" parent="1" name="mysql.sys">
       <Host>localhost</Host>
     </user>
-    <user id="261" parent="1" name="nov">
+    <user id="267" parent="1" name="nov">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="262" parent="1" name="nov">
+    <user id="268" parent="1" name="nov">
       <Host>localhost</Host>
     </user>
-    <user id="263" parent="1" name="nzq">
+    <user id="269" parent="1" name="nzq">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="264" parent="1" name="nzq">
+    <user id="270" parent="1" name="nzq">
       <Host>localhost</Host>
     </user>
-    <user id="265" parent="1" name="photo">
+    <user id="271" parent="1" name="photo">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="266" parent="1" name="photo">
+    <user id="272" parent="1" name="photo">
       <Host>localhost</Host>
     </user>
-    <user id="267" parent="1" name="poem"/>
-    <user id="268" parent="1" name="poem">
+    <user id="273" parent="1" name="poem"/>
+    <user id="274" parent="1" name="poem">
       <Host>localhost</Host>
     </user>
-    <user id="269" parent="1" name="root">
+    <user id="275" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <user id="270" parent="1" name="shop">
+    <user id="276" parent="1" name="shop">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="271" parent="1" name="shop">
+    <user id="277" parent="1" name="shop">
       <Host>localhost</Host>
     </user>
-    <user id="272" parent="1" name="site2">
+    <user id="278" parent="1" name="site2">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="273" parent="1" name="site2">
+    <user id="279" parent="1" name="site2">
       <Host>localhost</Host>
     </user>
-    <user id="274" parent="1" name="site">
+    <user id="280" parent="1" name="site">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="275" parent="1" name="site">
+    <user id="281" parent="1" name="site">
       <Host>localhost</Host>
     </user>
-    <user id="276" parent="1" name="v">
+    <user id="282" parent="1" name="store"/>
+    <user id="283" parent="1" name="store">
+      <Host>localhost</Host>
+    </user>
+    <user id="284" parent="1" name="tms"/>
+    <user id="285" parent="1" name="tms">
+      <Host>localhost</Host>
+    </user>
+    <user id="286" parent="1" name="v">
       <Host>127.0.0.1</Host>
     </user>
-    <user id="277" parent="1" name="v">
+    <user id="287" parent="1" name="v">
       <Host>localhost</Host>
     </user>
-    <user id="278" parent="1" name="www"/>
-    <user id="279" parent="1" name="www">
+    <user id="288" parent="1" name="www"/>
+    <user id="289" parent="1" name="www">
       <Host>localhost</Host>
     </user>
-    <user id="280" parent="1" name="ypy">
-      <Host>127.0.0.1</Host>
-    </user>
-    <user id="281" parent="1" name="ypy">
+    <user id="290" parent="1" name="ypy"/>
+    <user id="291" parent="1" name="ypy">
       <Host>localhost</Host>
     </user>
-    <table id="282" parent="15" name="author"/>
-    <table id="283" parent="15" name="comment"/>
-    <table id="284" parent="15" name="dynasty"/>
-    <table id="285" parent="15" name="feedback"/>
-    <table id="286" parent="15" name="item"/>
-    <table id="287" parent="15" name="likecomment"/>
-    <table id="288" parent="15" name="likepoem"/>
-    <table id="289" parent="15" name="likeuser"/>
-    <table id="290" parent="15" name="poem"/>
-    <table id="291" parent="15" name="user"/>
-    <view id="292" parent="15" name="getComment">
-      <SourceTextLength>1699</SourceTextLength>
+    <table id="292" parent="17" name="author">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="293" parent="17" name="comment">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="294" parent="17" name="dynasty">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="295" parent="17" name="feedback">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="296" parent="17" name="item">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="297" parent="17" name="likecomment">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="298" parent="17" name="likepoem">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="299" parent="17" name="likeuser">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="300" parent="17" name="news">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="301" parent="17" name="poem">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <table id="302" parent="17" name="user">
+      <Collation>utf8_general_ci</Collation>
+    </table>
+    <view id="303" parent="17" name="getAuthor">
+      <SourceTextLength>466</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="293" parent="15" name="getCommentLikedUser">
-      <SourceTextLength>1474</SourceTextLength>
+    <view id="304" parent="17" name="getComment">
+      <SourceTextLength>1162</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="294" parent="15" name="getLikeUser">
-      <SourceTextLength>639</SourceTextLength>
+    <view id="305" parent="17" name="getCommentLikedUser">
+      <SourceTextLength>1165</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="295" parent="15" name="getLikedUser">
-      <SourceTextLength>636</SourceTextLength>
+    <view id="306" parent="17" name="getDynasty">
+      <SourceTextLength>388</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="296" parent="15" name="getPoem">
-      <SourceTextLength>617</SourceTextLength>
+    <view id="307" parent="17" name="getLikeUser">
+      <SourceTextLength>640</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="297" parent="15" name="getPoemLikedUser">
-      <SourceTextLength>724</SourceTextLength>
+    <view id="308" parent="17" name="getLikedUser">
+      <SourceTextLength>637</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="298" parent="15" name="getUserLikeComment">
-      <SourceTextLength>847</SourceTextLength>
+    <view id="309" parent="17" name="getPoem">
+      <SourceTextLength>678</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <view id="299" parent="15" name="getUserLikePoem">
-      <SourceTextLength>936</SourceTextLength>
+    <view id="310" parent="17" name="getPoemLikedUser">
+      <SourceTextLength>531</SourceTextLength>
       <Definer>poem@%</Definer>
     </view>
-    <column id="300" parent="282" name="aid">
+    <view id="311" parent="17" name="getUserLikeComment">
+      <SourceTextLength>817</SourceTextLength>
+      <Definer>poem@%</Definer>
+    </view>
+    <view id="312" parent="17" name="getUserLikePoem">
+      <SourceTextLength>838</SourceTextLength>
+      <Definer>poem@%</Definer>
+    </view>
+    <column id="313" parent="292" name="aname">
       <Position>1</Position>
+      <Comment>作者名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="314" parent="292" name="aid">
+      <Position>2</Position>
       <Comment>作者编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="301" parent="282" name="aname">
-      <Position>2</Position>
-      <Comment>作者名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="302" parent="282" name="did">
+    <column id="315" parent="292" name="did">
       <Position>3</Position>
       <Comment>朝代编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="303" parent="282" name="active">
+    <column id="316" parent="292" name="active">
       <Position>4</Position>
       <Comment>是否可用1,不可用0
 ，默认1</Comment>
@@ -1623,420 +1784,588 @@ ypy|schema||ypy|localhost|UPDATE|G</Grants>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
     </column>
-    <index id="304" parent="282" name="pk_author_aid">
+    <index id="317" parent="292" name="pk_author_aid">
       <ColNames>aid</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="305" parent="282" name="fk_author_did">
+    <index id="318" parent="292" name="fk_author_did">
       <ColNames>did</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="306" parent="282" name="PRIMARY">
+    <key id="319" parent="292" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>aid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="307" parent="282" name="pk_author_aid">
+    <key id="320" parent="292" name="pk_author_aid">
       <ColNames>aid</ColNames>
       <UnderlyingIndexName>pk_author_aid</UnderlyingIndexName>
     </key>
-    <foreign-key id="308" parent="282" name="fk_author_did">
+    <foreign-key id="321" parent="292" name="fk_author_did">
       <ColNames>did</ColNames>
       <RefTableName>dynasty</RefTableName>
       <RefColNames>did</RefColNames>
     </foreign-key>
-    <column id="309" parent="283" name="cid">
+    <column id="322" parent="293" name="cid">
       <Position>1</Position>
       <Comment>评论编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="310" parent="283" name="uid">
+    <column id="323" parent="293" name="uid">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="311" parent="283" name="pid">
+    <column id="324" parent="293" name="type">
       <Position>3</Position>
-      <Comment>诗词编号
+      <Comment>p:诗词,c:评论,f:反馈,n:新闻,u:用户</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="325" parent="293" name="id">
+      <Position>4</Position>
+      <Comment>type决定的编号
 </Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="312" parent="283" name="public">
-      <Position>4</Position>
+    <column id="326" parent="293" name="title">
+      <Position>5</Position>
+      <Comment>标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="327" parent="293" name="content">
+      <Position>6</Position>
+      <Comment>内容</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="328" parent="293" name="sendtime">
+      <Position>7</Position>
+      <Comment>发送时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="329" parent="293" name="likenumber">
+      <Position>8</Position>
+      <Comment>收藏的人数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="330" parent="293" name="commentnumber">
+      <Position>9</Position>
+      <Comment>评论数</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="331" parent="293" name="public">
+      <Position>10</Position>
       <Comment>是否公开1私密0默认1
 </Comment>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="313" parent="283" name="title">
-      <Position>5</Position>
-      <Comment>标题</Comment>
-      <DataType>varchar(255)|0s</DataType>
+    <column id="332" parent="293" name="active">
+      <Position>11</Position>
+      <Comment>是否有效</Comment>
+      <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="314" parent="283" name="content">
-      <Position>6</Position>
-      <Comment>内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="315" parent="283" name="sendtime">
-      <Position>7</Position>
-      <Comment>发送时间</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="316" parent="283" name="altertime">
-      <Position>8</Position>
-      <Comment>最后修改时间</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <index id="317" parent="283" name="pk_comment_cid">
+    <index id="333" parent="293" name="pk_comment_cid">
       <ColNames>cid</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="318" parent="283" name="fk_comment_uid">
+    <index id="334" parent="293" name="fk_comment_uid">
       <ColNames>uid</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="319" parent="283" name="fk_comment_pid">
-      <ColNames>pid</ColNames>
+    <index id="335" parent="293" name="type_id">
+      <ColNames>type
+id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="320" parent="283" name="PRIMARY">
+    <index id="336" parent="293" name="comment_likenumber_cid">
+      <ColNames>likenumber
+cid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="337" parent="293" name="likenumber_commentnumber_cid">
+      <ColNames>likenumber
+commentnumber
+cid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="338" parent="293" name="comment_commentnumber_cid">
+      <ColNames>commentnumber
+cid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="339" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>cid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="321" parent="283" name="pk_comment_cid">
+    <key id="340" parent="293" name="pk_comment_cid">
       <ColNames>cid</ColNames>
       <UnderlyingIndexName>pk_comment_cid</UnderlyingIndexName>
     </key>
-    <foreign-key id="322" parent="283" name="fk_comment_uid">
+    <foreign-key id="341" parent="293" name="fk_comment_uid">
       <ColNames>uid</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>uid</RefColNames>
     </foreign-key>
-    <foreign-key id="323" parent="283" name="fk_comment_pid">
-      <ColNames>pid</ColNames>
-      <RefTableName>poem</RefTableName>
-      <RefColNames>pid</RefColNames>
-    </foreign-key>
-    <trigger id="324" parent="283" name="addComment">
-      <SourceTextLength>207</SourceTextLength>
+    <trigger id="342" parent="293" name="addComment">
+      <SourceTextLength>501</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <trigger id="325" parent="283" name="delComment">
-      <SourceTextLength>207</SourceTextLength>
+    <trigger id="343" parent="293" name="delComment">
+      <SourceTextLength>500</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>D</Events>
     </trigger>
-    <column id="326" parent="284" name="did">
+    <column id="344" parent="294" name="did">
       <Position>1</Position>
       <Comment>朝代编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="327" parent="284" name="dname">
+    <column id="345" parent="294" name="dname">
       <Position>2</Position>
       <Comment>朝代名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="328" parent="284" name="active">
+    <column id="346" parent="294" name="active">
       <Position>3</Position>
       <Comment>是否可用1,不可用0，默认1</Comment>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
     </column>
-    <index id="329" parent="284" name="pk_dynasty_did">
+    <index id="347" parent="294" name="pk_dynasty_did">
       <ColNames>did</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="330" parent="284" name="PRIMARY">
+    <key id="348" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>did</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="331" parent="284" name="pk_dynasty_did">
+    <key id="349" parent="294" name="pk_dynasty_did">
       <ColNames>did</ColNames>
       <UnderlyingIndexName>pk_dynasty_did</UnderlyingIndexName>
     </key>
-    <column id="332" parent="285" name="fid">
+    <column id="350" parent="295" name="fid">
       <Position>1</Position>
       <Comment>反馈编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="333" parent="285" name="uid">
+    <column id="351" parent="295" name="uid">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="334" parent="285" name="pid">
+    <column id="352" parent="295" name="type">
       <Position>3</Position>
+      <Comment>反馈类型：p:诗词,s:系统,</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="353" parent="295" name="pid">
+      <Position>4</Position>
       <Comment>诗词编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="335" parent="285" name="title">
-      <Position>4</Position>
+    <column id="354" parent="295" name="title">
+      <Position>5</Position>
       <Comment>标题</Comment>
       <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="336" parent="285" name="content">
-      <Position>5</Position>
+    <column id="355" parent="295" name="content">
+      <Position>6</Position>
       <Comment>内容</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="337" parent="285" name="sendtime">
-      <Position>6</Position>
+    <column id="356" parent="295" name="sendtime">
+      <Position>7</Position>
       <Comment>发送时间</Comment>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <index id="338" parent="285" name="pk_feedback_fid">
+    <column id="357" parent="295" name="dealuid">
+      <Position>8</Position>
+      <Comment>处理用户</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="358" parent="295" name="dealtime">
+      <Position>9</Position>
+      <Comment>处理时间</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="359" parent="295" name="dealcontent">
+      <Position>10</Position>
+      <Comment>处理内容</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="360" parent="295" name="check">
+      <Position>11</Position>
+      <Comment>用户确认</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="361" parent="295" name="ip">
+      <Position>12</Position>
+      <Comment>ip</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="362" parent="295" name="likenumber">
+      <Position>13</Position>
+      <Comment>喜欢数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="363" parent="295" name="commentnumber">
+      <Position>14</Position>
+      <Comment>评论数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="364" parent="295" name="pk_feedback_fid">
       <ColNames>fid</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="339" parent="285" name="fk_feedback_uid">
+    <index id="365" parent="295" name="fk_feedback_dealuid">
       <ColNames>uid</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="340" parent="285" name="fk_feedback_pid">
+    <index id="366" parent="295" name="fk_feedback_pid">
       <ColNames>pid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="341" parent="285" name="PRIMARY">
+    <key id="367" parent="295" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>fid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="342" parent="285" name="pk_feedback_fid">
+    <key id="368" parent="295" name="pk_feedback_fid">
       <ColNames>fid</ColNames>
       <UnderlyingIndexName>pk_feedback_fid</UnderlyingIndexName>
     </key>
-    <foreign-key id="343" parent="285" name="fk_feedback_uid">
-      <ColNames>uid</ColNames>
-      <RefTableName>user</RefTableName>
-      <RefColNames>uid</RefColNames>
-    </foreign-key>
-    <foreign-key id="344" parent="285" name="fk_feedback_pid">
-      <ColNames>pid</ColNames>
-      <RefTableName>poem</RefTableName>
-      <RefColNames>pid</RefColNames>
-    </foreign-key>
-    <column id="345" parent="286" name="id">
+    <column id="369" parent="296" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="346" parent="286" name="item_name">
+    <column id="370" parent="296" name="item_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="347" parent="286" name="password">
+    <column id="371" parent="296" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="348" parent="286" name="regtime">
+    <column id="372" parent="296" name="regtime">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <key id="349" parent="286" name="PRIMARY">
+    <key id="373" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="350" parent="287" name="uid">
+    <column id="374" parent="297" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="351" parent="287" name="cid">
+    <column id="375" parent="297" name="cid">
       <Position>2</Position>
       <Comment>喜欢的诗词编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="352" parent="287" name="fk_likecomment_cid">
+    <index id="376" parent="297" name="fk_likecomment_cid">
       <ColNames>cid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="353" parent="287" name="PRIMARY">
+    <key id="377" parent="297" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>uid
 cid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="354" parent="287" name="fk_likecomment_uid">
+    <foreign-key id="378" parent="297" name="fk_likecomment_uid">
       <ColNames>uid</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>uid</RefColNames>
     </foreign-key>
-    <foreign-key id="355" parent="287" name="fk_likecomment_cid">
+    <foreign-key id="379" parent="297" name="fk_likecomment_cid">
       <ColNames>cid</ColNames>
       <RefTableName>comment</RefTableName>
       <RefColNames>cid</RefColNames>
     </foreign-key>
-    <trigger id="356" parent="287" name="addLikeComment">
-      <SourceTextLength>116</SourceTextLength>
+    <trigger id="380" parent="297" name="addLikeComment">
+      <SourceTextLength>221</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <trigger id="357" parent="287" name="delLikeComment">
-      <SourceTextLength>116</SourceTextLength>
+    <trigger id="381" parent="297" name="delLikeComment">
+      <SourceTextLength>221</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>D</Events>
     </trigger>
-    <column id="358" parent="288" name="uid">
+    <column id="382" parent="298" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="359" parent="288" name="pid">
+    <column id="383" parent="298" name="pid">
       <Position>2</Position>
       <Comment>喜欢的诗词编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="360" parent="288" name="fk_likepoem_pid">
+    <index id="384" parent="298" name="fk_likepoem_pid">
       <ColNames>pid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="361" parent="288" name="PRIMARY">
+    <key id="385" parent="298" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>uid
 pid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="362" parent="288" name="fk_likepoem_uid">
+    <foreign-key id="386" parent="298" name="fk_likepoem_uid">
       <ColNames>uid</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>uid</RefColNames>
     </foreign-key>
-    <foreign-key id="363" parent="288" name="fk_likepoem_pid">
+    <foreign-key id="387" parent="298" name="fk_likepoem_pid">
       <ColNames>pid</ColNames>
       <RefTableName>poem</RefTableName>
       <RefColNames>pid</RefColNames>
     </foreign-key>
-    <trigger id="364" parent="288" name="addLikePoem">
+    <trigger id="388" parent="298" name="addLikePoem">
       <SourceTextLength>203</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <trigger id="365" parent="288" name="delLikePoem">
+    <trigger id="389" parent="298" name="delLikePoem">
       <SourceTextLength>203</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>D</Events>
     </trigger>
-    <column id="366" parent="289" name="uid">
+    <column id="390" parent="299" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="367" parent="289" name="likeuid">
+    <column id="391" parent="299" name="likeuid">
       <Position>2</Position>
       <Comment>喜欢的用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="368" parent="289" name="fk_likeuser_likeuid">
+    <index id="392" parent="299" name="fk_likeuser_likeuid">
       <ColNames>likeuid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="369" parent="289" name="PRIMARY">
+    <key id="393" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>uid
 likeuid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="370" parent="289" name="fk_likeuser_uid">
+    <foreign-key id="394" parent="299" name="fk_likeuser_uid">
       <ColNames>uid</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>uid</RefColNames>
     </foreign-key>
-    <foreign-key id="371" parent="289" name="fk_likeuser_likeuid">
+    <foreign-key id="395" parent="299" name="fk_likeuser_likeuid">
       <ColNames>likeuid</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>uid</RefColNames>
     </foreign-key>
-    <trigger id="372" parent="289" name="addLikeUser">
+    <trigger id="396" parent="299" name="addLikeUser">
       <SourceTextLength>209</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <trigger id="373" parent="289" name="delLikeUser">
+    <trigger id="397" parent="299" name="delLikeUser">
       <SourceTextLength>209</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>D</Events>
     </trigger>
-    <column id="374" parent="290" name="pid">
+    <column id="398" parent="300" name="nid">
+      <Position>1</Position>
+      <Comment>新闻id</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="399" parent="300" name="uid">
+      <Position>2</Position>
+      <Comment>发送用户id</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="400" parent="300" name="type">
+      <Position>3</Position>
+      <Comment>类型;w:词条,d:朝代,a:诗人,p:诗词,s:系统,e:赏析,c:合辑</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="401" parent="300" name="priority">
+      <Position>4</Position>
+      <Comment>优先级</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="402" parent="300" name="title">
+      <Position>5</Position>
+      <Comment>新闻标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="403" parent="300" name="subtitle">
+      <Position>6</Position>
+      <Comment>副标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="404" parent="300" name="content">
+      <Position>7</Position>
+      <Comment>新闻内容</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="405" parent="300" name="source">
+      <Position>8</Position>
+      <Comment>作者/来源</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
+    </column>
+    <column id="406" parent="300" name="time">
+      <Position>9</Position>
+      <Comment>发表时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="407" parent="300" name="likenumber">
+      <Position>10</Position>
+      <Comment>收藏数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="408" parent="300" name="commentnumber">
+      <Position>11</Position>
+      <Comment>评论数</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <key id="409" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>nid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="410" parent="301" name="pid">
       <Position>1</Position>
       <Comment>诗词编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="375" parent="290" name="title">
+    <column id="411" parent="301" name="title">
       <Position>2</Position>
       <Comment>诗词题目</Comment>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="376" parent="290" name="did">
+    <column id="412" parent="301" name="did">
       <Position>3</Position>
       <Comment>朝代编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="377" parent="290" name="aid">
+    <column id="413" parent="301" name="aid">
       <Position>4</Position>
       <Comment>作者编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="378" parent="290" name="content">
+    <column id="414" parent="301" name="content">
       <Position>5</Position>
       <Comment>诗词内容</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="379" parent="290" name="likepoemnumber">
+    <column id="415" parent="301" name="likepoemnumber">
       <Position>6</Position>
       <Comment>喜欢数量</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="380" parent="290" name="commentnumber">
+    <column id="416" parent="301" name="commentnumber">
       <Position>7</Position>
       <Comment>评论数量
 </Comment>
@@ -2044,7 +2373,7 @@ likeuid</ColNames>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="381" parent="290" name="active">
+    <column id="417" parent="301" name="active">
       <Position>8</Position>
       <Comment>是否可用1,不可用0，默认1
 </Comment>
@@ -2052,1236 +2381,1099 @@ likeuid</ColNames>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
     </column>
-    <index id="382" parent="290" name="pk_poem_pid">
+    <index id="418" parent="301" name="pk_poem_pid">
       <ColNames>pid</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="383" parent="290" name="fk_poem_did">
+    <index id="419" parent="301" name="poem_likepoemnumber">
+      <ColNames>likepoemnumber
+pid</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="420" parent="301" name="fk_poem_did">
       <ColNames>did</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="384" parent="290" name="fk_poem_aid">
+    <index id="421" parent="301" name="fk_poem_aid">
       <ColNames>aid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="385" parent="290" name="PRIMARY">
+    <index id="422" parent="301" name="likepoemnumber_commentnumber">
+      <ColNames>likepoemnumber
+commentnumber
+pid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="423" parent="301" name="poem_commentnumber">
+      <ColNames>commentnumber
+pid</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="424" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>pid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="386" parent="290" name="pk_poem_pid">
+    <key id="425" parent="301" name="pk_poem_pid">
       <ColNames>pid</ColNames>
       <UnderlyingIndexName>pk_poem_pid</UnderlyingIndexName>
     </key>
-    <foreign-key id="387" parent="290" name="fk_poem_did">
+    <key id="426" parent="301" name="poem_likepoemnumber">
+      <ColNames>likepoemnumber
+pid</ColNames>
+      <UnderlyingIndexName>poem_likepoemnumber</UnderlyingIndexName>
+    </key>
+    <foreign-key id="427" parent="301" name="fk_poem_did">
       <ColNames>did</ColNames>
       <RefTableName>dynasty</RefTableName>
       <RefColNames>did</RefColNames>
     </foreign-key>
-    <foreign-key id="388" parent="290" name="fk_poem_aid">
+    <foreign-key id="428" parent="301" name="fk_poem_aid">
       <ColNames>aid</ColNames>
       <RefTableName>author</RefTableName>
       <RefColNames>aid</RefColNames>
     </foreign-key>
-    <column id="389" parent="291" name="uid">
+    <column id="429" parent="302" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="390" parent="291" name="uname">
+    <column id="430" parent="302" name="uname">
       <Position>2</Position>
       <Comment>用户名</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="391" parent="291" name="password">
+    <column id="431" parent="302" name="password">
       <Position>3</Position>
       <Comment>密码</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="392" parent="291" name="nickname">
+    <column id="432" parent="302" name="nickname">
       <Position>4</Position>
       <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="393" parent="291" name="email">
+    <column id="433" parent="302" name="email">
       <Position>5</Position>
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="394" parent="291" name="tel">
+    <column id="434" parent="302" name="tel">
       <Position>6</Position>
       <Comment>手机号码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="395" parent="291" name="slogan">
+    <column id="435" parent="302" name="slogan">
       <Position>7</Position>
       <Comment>个性签名</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="396" parent="291" name="sex">
+    <column id="436" parent="302" name="sex">
       <Position>8</Position>
       <Comment>性别</Comment>
       <DataType>char(1)|0s</DataType>
       <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="397" parent="291" name="birthday">
+    <column id="437" parent="302" name="birthday">
       <Position>9</Position>
       <Comment>出生日期</Comment>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="398" parent="291" name="regtime">
+    <column id="438" parent="302" name="regtime">
       <Position>10</Position>
       <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <column id="399" parent="291" name="regip">
+    <column id="439" parent="302" name="regip">
       <Position>11</Position>
       <Comment>注册ip</Comment>
       <DataType>varchar(20)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <column id="400" parent="291" name="likepoemnumber">
+    <column id="440" parent="302" name="likepoemnumber">
       <Position>12</Position>
       <Comment>喜欢的诗词数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="401" parent="291" name="likecommentnumber">
+    <column id="441" parent="302" name="likecommentnumber">
       <Position>13</Position>
       <Comment>喜欢的评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="402" parent="291" name="commentnumber">
+    <column id="442" parent="302" name="commentnumber">
       <Position>14</Position>
       <Comment>评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="403" parent="291" name="likeusernumber">
+    <column id="443" parent="302" name="likeusernumber">
       <Position>15</Position>
       <Comment>喜欢的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="404" parent="291" name="likedusernumber">
+    <column id="444" parent="302" name="likedusernumber">
       <Position>16</Position>
       <Comment>喜欢你的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="405" parent="291" name="sid">
+    <column id="445" parent="302" name="sid">
       <Position>17</Position>
       <Comment>皮肤编号，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="406" parent="291" name="avatar">
+    <column id="446" parent="302" name="assets">
       <Position>18</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>&apos;.png&apos;</DefaultExpression>
-    </column>
-    <column id="407" parent="291" name="assets">
-      <Position>19</Position>
       <Comment>资产</Comment>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="408" parent="291" name="exp">
-      <Position>20</Position>
+    <column id="447" parent="302" name="exp">
+      <Position>19</Position>
       <Comment>经验</Comment>
       <DataType>int(10) unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>0</DefaultExpression>
     </column>
-    <column id="409" parent="291" name="level">
-      <Position>21</Position>
+    <column id="448" parent="302" name="level">
+      <Position>20</Position>
       <Comment>用户级别0未激活1普通用户2管理员
 </Comment>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <Collation>utf8mb4_general_ci</Collation>
     </column>
-    <index id="410" parent="291" name="pk_user_uid">
+    <index id="449" parent="302" name="pk_user_uid">
       <ColNames>uid</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="411" parent="291" name="PRIMARY">
+    <key id="450" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>uid</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="412" parent="291" name="pk_user_uid">
+    <key id="451" parent="302" name="pk_user_uid">
       <ColNames>uid</ColNames>
       <UnderlyingIndexName>pk_user_uid</UnderlyingIndexName>
     </key>
-    <column id="413" parent="292" name="cid">
+    <column id="452" parent="303" name="aname">
+      <Position>1</Position>
+      <Comment>作者名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="453" parent="303" name="aid">
+      <Position>2</Position>
+      <Comment>作者编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="454" parent="303" name="did">
+      <Position>3</Position>
+      <Comment>朝代编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="455" parent="303" name="active">
+      <Position>4</Position>
+      <Comment>是否可用1,不可用0
+，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="456" parent="303" name="poemcount">
+      <Position>5</Position>
+      <DataType>bigint(21)|0s</DataType>
+    </column>
+    <column id="457" parent="303" name="dname">
+      <Position>6</Position>
+      <Comment>朝代名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="458" parent="303" name="dactive">
+      <Position>7</Position>
+      <Comment>是否可用1,不可用0，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="459" parent="304" name="cid">
       <Position>1</Position>
       <Comment>评论编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="414" parent="292" name="uid">
+    <column id="460" parent="304" name="uid">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="415" parent="292" name="pid">
+    <column id="461" parent="304" name="type">
       <Position>3</Position>
-      <Comment>诗词编号
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
+      <Comment>p:诗词,c:评论,f:反馈,n:新闻,u:用户</Comment>
+      <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="416" parent="292" name="uname">
+    <column id="462" parent="304" name="id">
       <Position>4</Position>
-      <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
+      <Comment>type决定的编号
+</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="417" parent="292" name="did">
+    <column id="463" parent="304" name="title">
       <Position>5</Position>
-      <Comment>朝代编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
+      <Comment>标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="418" parent="292" name="aid">
+    <column id="464" parent="304" name="content">
       <Position>6</Position>
-      <Comment>作者编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
+      <Comment>内容</Comment>
+      <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="419" parent="292" name="dname">
+    <column id="465" parent="304" name="sendtime">
       <Position>7</Position>
-      <Comment>朝代名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <Comment>发送时间</Comment>
+      <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="420" parent="292" name="dactive">
+    <column id="466" parent="304" name="public">
       <Position>8</Position>
-      <Comment>是否可用1,不可用0，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="421" parent="292" name="pactive">
-      <Position>9</Position>
-      <Comment>是否可用1,不可用0，默认1
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="422" parent="292" name="plikepoemnumber">
-      <Position>10</Position>
-      <Comment>喜欢数量</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="423" parent="292" name="pcommentnumber">
-      <Position>11</Position>
-      <Comment>评论数量
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="424" parent="292" name="aname">
-      <Position>12</Position>
-      <Comment>作者名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="425" parent="292" name="aactive">
-      <Position>13</Position>
-      <Comment>是否可用1,不可用0
-，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="426" parent="292" name="public">
-      <Position>14</Position>
       <Comment>是否公开1私密0默认1
 </Comment>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="427" parent="292" name="title">
-      <Position>15</Position>
-      <Comment>标题</Comment>
-      <DataType>varchar(255)|0s</DataType>
+    <column id="467" parent="304" name="active">
+      <Position>9</Position>
+      <Comment>是否有效</Comment>
+      <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="428" parent="292" name="content">
-      <Position>16</Position>
-      <Comment>内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
+    <column id="468" parent="304" name="uname">
+      <Position>10</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="429" parent="292" name="sendtime">
-      <Position>17</Position>
-      <Comment>发送时间</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="430" parent="292" name="altertime">
-      <Position>18</Position>
-      <Comment>最后修改时间</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="431" parent="292" name="ptitle">
-      <Position>19</Position>
-      <Comment>诗词题目</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="432" parent="292" name="pcontent">
-      <Position>20</Position>
-      <Comment>诗词内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="433" parent="292" name="nickname">
-      <Position>21</Position>
+    <column id="469" parent="304" name="nickname">
+      <Position>11</Position>
       <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="434" parent="292" name="email">
-      <Position>22</Position>
+    <column id="470" parent="304" name="email">
+      <Position>12</Position>
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="435" parent="292" name="tel">
-      <Position>23</Position>
+    <column id="471" parent="304" name="tel">
+      <Position>13</Position>
       <Comment>手机号码</Comment>
       <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="436" parent="292" name="slogan">
-      <Position>24</Position>
+    <column id="472" parent="304" name="slogan">
+      <Position>14</Position>
       <Comment>个性签名</Comment>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="437" parent="292" name="sex">
-      <Position>25</Position>
+    <column id="473" parent="304" name="sex">
+      <Position>15</Position>
       <Comment>性别</Comment>
       <DataType>char(1)|0s</DataType>
     </column>
-    <column id="438" parent="292" name="birthday">
-      <Position>26</Position>
+    <column id="474" parent="304" name="birthday">
+      <Position>16</Position>
       <Comment>出生日期</Comment>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="439" parent="292" name="regtime">
-      <Position>27</Position>
+    <column id="475" parent="304" name="regtime">
+      <Position>17</Position>
       <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="440" parent="292" name="likepoemnumber">
-      <Position>28</Position>
+    <column id="476" parent="304" name="ulikepoemnumber">
+      <Position>18</Position>
       <Comment>喜欢的诗词数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="441" parent="292" name="likecommentnumber">
-      <Position>29</Position>
+    <column id="477" parent="304" name="ulikecommentnumber">
+      <Position>19</Position>
       <Comment>喜欢的评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="442" parent="292" name="commentnumber">
-      <Position>30</Position>
+    <column id="478" parent="304" name="ucommentnumber">
+      <Position>20</Position>
       <Comment>评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="443" parent="292" name="likeusernumber">
-      <Position>31</Position>
+    <column id="479" parent="304" name="ulikeusernumber">
+      <Position>21</Position>
       <Comment>喜欢的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="444" parent="292" name="likedusernumber">
-      <Position>32</Position>
+    <column id="480" parent="304" name="ulikedusernumber">
+      <Position>22</Position>
       <Comment>喜欢你的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="445" parent="292" name="avatar">
-      <Position>33</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="446" parent="292" name="assets">
-      <Position>34</Position>
+    <column id="481" parent="304" name="assets">
+      <Position>23</Position>
       <Comment>资产</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="447" parent="292" name="exp">
-      <Position>35</Position>
+    <column id="482" parent="304" name="exp">
+      <Position>24</Position>
       <Comment>经验</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="448" parent="292" name="level">
-      <Position>36</Position>
+    <column id="483" parent="304" name="level">
+      <Position>25</Position>
       <Comment>用户级别0未激活1普通用户2管理员
 </Comment>
       <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="484" parent="304" name="likenumber">
+      <Position>26</Position>
+      <Comment>收藏的人数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="449" parent="293" name="uuid">
+    <column id="485" parent="304" name="commentnumber">
+      <Position>27</Position>
+      <Comment>评论数</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="486" parent="305" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="450" parent="293" name="cid">
+    <column id="487" parent="305" name="cid">
       <Position>2</Position>
       <Comment>喜欢的诗词编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="451" parent="293" name="uid">
+    <column id="488" parent="305" name="cuid">
       <Position>3</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="452" parent="293" name="pid">
+    <column id="489" parent="305" name="type">
       <Position>4</Position>
-      <Comment>诗词编号
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>p:诗词,c:评论,f:反馈,n:新闻,u:用户</Comment>
+      <DataType>char(1)|0s</DataType>
     </column>
-    <column id="453" parent="293" name="uname">
+    <column id="490" parent="305" name="id">
       <Position>5</Position>
-      <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>type决定的编号
+</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="454" parent="293" name="did">
+    <column id="491" parent="305" name="title">
       <Position>6</Position>
-      <Comment>朝代编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>标题</Comment>
+      <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="455" parent="293" name="aid">
+    <column id="492" parent="305" name="content">
       <Position>7</Position>
-      <Comment>作者编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>内容</Comment>
+      <DataType>text|0s</DataType>
     </column>
-    <column id="456" parent="293" name="dname">
+    <column id="493" parent="305" name="sendtime">
       <Position>8</Position>
-      <Comment>朝代名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>发送时间</Comment>
+      <DataType>datetime|0s</DataType>
     </column>
-    <column id="457" parent="293" name="dactive">
+    <column id="494" parent="305" name="public">
       <Position>9</Position>
-      <Comment>是否可用1,不可用0，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="458" parent="293" name="pactive">
-      <Position>10</Position>
-      <Comment>是否可用1,不可用0，默认1
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="459" parent="293" name="plikepoemnumber">
-      <Position>11</Position>
-      <Comment>喜欢数量</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="460" parent="293" name="pcommentnumber">
-      <Position>12</Position>
-      <Comment>评论数量
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="461" parent="293" name="aname">
-      <Position>13</Position>
-      <Comment>作者名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="462" parent="293" name="aactive">
-      <Position>14</Position>
-      <Comment>是否可用1,不可用0
-，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="463" parent="293" name="public">
-      <Position>15</Position>
       <Comment>是否公开1私密0默认1
 </Comment>
       <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="464" parent="293" name="title">
-      <Position>16</Position>
-      <Comment>标题</Comment>
+    <column id="495" parent="305" name="active">
+      <Position>10</Position>
+      <Comment>是否有效</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="496" parent="305" name="uname">
+      <Position>11</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="497" parent="305" name="nickname">
+      <Position>12</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="498" parent="305" name="email">
+      <Position>13</Position>
+      <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="465" parent="293" name="content">
+    <column id="499" parent="305" name="tel">
+      <Position>14</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="500" parent="305" name="slogan">
+      <Position>15</Position>
+      <Comment>个性签名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="501" parent="305" name="sex">
+      <Position>16</Position>
+      <Comment>性别</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="502" parent="305" name="birthday">
       <Position>17</Position>
-      <Comment>内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>出生日期</Comment>
+      <DataType>datetime|0s</DataType>
     </column>
-    <column id="466" parent="293" name="sendtime">
+    <column id="503" parent="305" name="regtime">
       <Position>18</Position>
-      <Comment>发送时间</Comment>
+      <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="467" parent="293" name="altertime">
+    <column id="504" parent="305" name="ulikepoemnumber">
       <Position>19</Position>
-      <Comment>最后修改时间</Comment>
-      <DataType>datetime|0s</DataType>
+      <Comment>喜欢的诗词数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="468" parent="293" name="ptitle">
+    <column id="505" parent="305" name="ulikecommentnumber">
       <Position>20</Position>
-      <Comment>诗词题目</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <Comment>喜欢的评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="469" parent="293" name="pcontent">
+    <column id="506" parent="305" name="ucommentnumber">
       <Position>21</Position>
-      <Comment>诗词内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="470" parent="293" name="nickname">
+    <column id="507" parent="305" name="ulikeusernumber">
       <Position>22</Position>
-      <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <Comment>喜欢的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="471" parent="293" name="email">
+    <column id="508" parent="305" name="ulikedusernumber">
       <Position>23</Position>
-      <Comment>邮箱</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>喜欢你的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="472" parent="293" name="tel">
+    <column id="509" parent="305" name="assets">
       <Position>24</Position>
-      <Comment>手机号码</Comment>
-      <DataType>varchar(20)|0s</DataType>
+      <Comment>资产</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
     </column>
-    <column id="473" parent="293" name="slogan">
+    <column id="510" parent="305" name="exp">
       <Position>25</Position>
-      <Comment>个性签名</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <Comment>经验</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
     </column>
-    <column id="474" parent="293" name="sex">
+    <column id="511" parent="305" name="level">
       <Position>26</Position>
-      <Comment>性别</Comment>
+      <Comment>用户级别0未激活1普通用户2管理员
+</Comment>
       <DataType>char(1)|0s</DataType>
     </column>
-    <column id="475" parent="293" name="birthday">
+    <column id="512" parent="305" name="likenumber">
       <Position>27</Position>
-      <Comment>出生日期</Comment>
-      <DataType>datetime|0s</DataType>
+      <Comment>收藏的人数</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
     </column>
-    <column id="476" parent="293" name="regtime">
+    <column id="513" parent="305" name="commentnumber">
       <Position>28</Position>
-      <Comment>注册日期</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
+      <Comment>评论数</Comment>
+      <DataType>bigint(20)|0s</DataType>
     </column>
-    <column id="477" parent="293" name="likepoemnumber">
-      <Position>29</Position>
-      <Comment>喜欢的诗词数量，默认0</Comment>
+    <column id="514" parent="306" name="did">
+      <Position>1</Position>
+      <Comment>朝代编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="478" parent="293" name="likecommentnumber">
-      <Position>30</Position>
-      <Comment>喜欢的评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
+    <column id="515" parent="306" name="dname">
+      <Position>2</Position>
+      <Comment>朝代名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="479" parent="293" name="commentnumber">
-      <Position>31</Position>
-      <Comment>评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="480" parent="293" name="likeusernumber">
-      <Position>32</Position>
-      <Comment>喜欢的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="481" parent="293" name="likedusernumber">
-      <Position>33</Position>
-      <Comment>喜欢你的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="482" parent="293" name="avatar">
-      <Position>34</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="483" parent="293" name="assets">
-      <Position>35</Position>
-      <Comment>资产</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="484" parent="293" name="exp">
-      <Position>36</Position>
-      <Comment>经验</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="485" parent="293" name="level">
-      <Position>37</Position>
-      <Comment>用户级别0未激活1普通用户2管理员
-</Comment>
+    <column id="516" parent="306" name="active">
+      <Position>3</Position>
+      <Comment>是否可用1,不可用0，默认1</Comment>
       <DataType>char(1)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="486" parent="294" name="uid">
+    <column id="517" parent="306" name="authorcount">
+      <Position>4</Position>
+      <DataType>bigint(21)|0s</DataType>
+    </column>
+    <column id="518" parent="306" name="poemcount">
+      <Position>5</Position>
+      <DataType>bigint(21)|0s</DataType>
+    </column>
+    <column id="519" parent="307" name="uid">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="487" parent="294" name="likeuid">
+    <column id="520" parent="307" name="likeuid">
       <Position>2</Position>
       <Comment>喜欢的用户编号</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="488" parent="294" name="uname">
+    <column id="521" parent="307" name="uname">
       <Position>3</Position>
       <Comment>用户名</Comment>
       <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="489" parent="294" name="nickname">
+    <column id="522" parent="307" name="nickname">
       <Position>4</Position>
       <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="490" parent="294" name="email">
+    <column id="523" parent="307" name="email">
       <Position>5</Position>
       <Comment>邮箱</Comment>
       <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="491" parent="294" name="tel">
+    <column id="524" parent="307" name="tel">
       <Position>6</Position>
       <Comment>手机号码</Comment>
       <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="492" parent="294" name="slogan">
+    <column id="525" parent="307" name="slogan">
       <Position>7</Position>
       <Comment>个性签名</Comment>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="493" parent="294" name="sex">
+    <column id="526" parent="307" name="sex">
       <Position>8</Position>
       <Comment>性别</Comment>
       <DataType>char(1)|0s</DataType>
     </column>
-    <column id="494" parent="294" name="avatar">
-      <Position>9</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="495" parent="294" name="assets">
-      <Position>10</Position>
-      <Comment>资产</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="496" parent="294" name="exp">
-      <Position>11</Position>
-      <Comment>经验</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="497" parent="294" name="level">
-      <Position>12</Position>
-      <Comment>用户级别0未激活1普通用户2管理员
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="498" parent="294" name="likepoemnumber">
-      <Position>13</Position>
-      <Comment>喜欢的诗词数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="499" parent="294" name="likecommentnumber">
-      <Position>14</Position>
-      <Comment>喜欢的评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="500" parent="294" name="commentnumber">
-      <Position>15</Position>
-      <Comment>评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="501" parent="294" name="likeusernumber">
-      <Position>16</Position>
-      <Comment>喜欢的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="502" parent="294" name="likedusernumber">
-      <Position>17</Position>
-      <Comment>喜欢你的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="503" parent="294" name="regtime">
-      <Position>18</Position>
-      <Comment>注册日期</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="504" parent="294" name="birthday">
-      <Position>19</Position>
-      <Comment>出生日期</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="505" parent="295" name="uid">
-      <Position>1</Position>
-      <Comment>喜欢的用户编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="506" parent="295" name="likeduid">
-      <Position>2</Position>
-      <Comment>用户编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="507" parent="295" name="uname">
-      <Position>3</Position>
-      <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="508" parent="295" name="nickname">
-      <Position>4</Position>
-      <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="509" parent="295" name="email">
-      <Position>5</Position>
-      <Comment>邮箱</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="510" parent="295" name="tel">
-      <Position>6</Position>
-      <Comment>手机号码</Comment>
-      <DataType>varchar(20)|0s</DataType>
-    </column>
-    <column id="511" parent="295" name="slogan">
-      <Position>7</Position>
-      <Comment>个性签名</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="512" parent="295" name="sex">
-      <Position>8</Position>
-      <Comment>性别</Comment>
-      <DataType>char(1)|0s</DataType>
-    </column>
-    <column id="513" parent="295" name="birthday">
+    <column id="527" parent="307" name="birthday">
       <Position>9</Position>
       <Comment>出生日期</Comment>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="514" parent="295" name="regtime">
+    <column id="528" parent="307" name="regtime">
       <Position>10</Position>
       <Comment>注册日期</Comment>
       <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="515" parent="295" name="likepoemnumber">
+    <column id="529" parent="307" name="likepoemnumber">
       <Position>11</Position>
       <Comment>喜欢的诗词数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="516" parent="295" name="likecommentnumber">
+    <column id="530" parent="307" name="likecommentnumber">
       <Position>12</Position>
       <Comment>喜欢的评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="517" parent="295" name="commentnumber">
+    <column id="531" parent="307" name="commentnumber">
       <Position>13</Position>
       <Comment>评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="518" parent="295" name="likeusernumber">
+    <column id="532" parent="307" name="likeusernumber">
       <Position>14</Position>
       <Comment>喜欢的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="519" parent="295" name="likedusernumber">
+    <column id="533" parent="307" name="likedusernumber">
       <Position>15</Position>
       <Comment>喜欢你的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="520" parent="295" name="avatar">
+    <column id="534" parent="307" name="assets">
       <Position>16</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="521" parent="295" name="assets">
-      <Position>17</Position>
       <Comment>资产</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="522" parent="295" name="exp">
-      <Position>18</Position>
+    <column id="535" parent="307" name="exp">
+      <Position>17</Position>
       <Comment>经验</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="523" parent="295" name="level">
-      <Position>19</Position>
+    <column id="536" parent="307" name="level">
+      <Position>18</Position>
       <Comment>用户级别0未激活1普通用户2管理员
 </Comment>
       <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="524" parent="296" name="pid">
-      <Position>1</Position>
-      <Comment>诗词编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="525" parent="296" name="title">
-      <Position>2</Position>
-      <Comment>诗词题目</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="526" parent="296" name="did">
-      <Position>3</Position>
-      <Comment>朝代编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="527" parent="296" name="aid">
-      <Position>4</Position>
-      <Comment>作者编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="528" parent="296" name="content">
-      <Position>5</Position>
-      <Comment>诗词内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="529" parent="296" name="likepoemnumber">
-      <Position>6</Position>
-      <Comment>喜欢数量</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="530" parent="296" name="commentnumber">
-      <Position>7</Position>
-      <Comment>评论数量
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="531" parent="296" name="active">
-      <Position>8</Position>
-      <Comment>是否可用1,不可用0，默认1
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="532" parent="296" name="dname">
-      <Position>9</Position>
-      <Comment>朝代名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="533" parent="296" name="dactive">
-      <Position>10</Position>
-      <Comment>是否可用1,不可用0，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="534" parent="296" name="aname">
-      <Position>11</Position>
-      <Comment>作者名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="535" parent="296" name="aactive">
-      <Position>12</Position>
-      <Comment>是否可用1,不可用0
-，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="536" parent="297" name="uid">
-      <Position>1</Position>
-      <Comment>用户编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="537" parent="297" name="pid">
-      <Position>2</Position>
-      <Comment>诗词编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="538" parent="297" name="title">
-      <Position>3</Position>
-      <Comment>诗词题目</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="539" parent="297" name="did">
-      <Position>4</Position>
-      <Comment>朝代编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="540" parent="297" name="aid">
-      <Position>5</Position>
-      <Comment>作者编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="541" parent="297" name="content">
-      <Position>6</Position>
-      <Comment>诗词内容</Comment>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="542" parent="297" name="likepoemnumber">
-      <Position>7</Position>
-      <Comment>喜欢数量</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="543" parent="297" name="commentnumber">
-      <Position>8</Position>
-      <Comment>评论数量
-</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="544" parent="297" name="pactive">
-      <Position>9</Position>
-      <Comment>是否可用1,不可用0，默认1
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="545" parent="297" name="dname">
-      <Position>10</Position>
-      <Comment>朝代名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="546" parent="297" name="dactive">
-      <Position>11</Position>
-      <Comment>是否可用1,不可用0，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="547" parent="297" name="aname">
-      <Position>12</Position>
-      <Comment>作者名称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="548" parent="297" name="aactive">
-      <Position>13</Position>
-      <Comment>是否可用1,不可用0
-，默认1</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="549" parent="298" name="cid">
-      <Position>1</Position>
-      <Comment>喜欢的诗词编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="550" parent="298" name="uid">
-      <Position>2</Position>
-      <Comment>用户编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="551" parent="298" name="uname">
-      <Position>3</Position>
-      <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="552" parent="298" name="nickname">
-      <Position>4</Position>
-      <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="553" parent="298" name="email">
-      <Position>5</Position>
-      <Comment>邮箱</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="554" parent="298" name="tel">
-      <Position>6</Position>
-      <Comment>手机号码</Comment>
-      <DataType>varchar(20)|0s</DataType>
-    </column>
-    <column id="555" parent="298" name="slogan">
-      <Position>7</Position>
-      <Comment>个性签名</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="556" parent="298" name="sex">
-      <Position>8</Position>
-      <Comment>性别</Comment>
-      <DataType>char(1)|0s</DataType>
-    </column>
-    <column id="557" parent="298" name="birthday">
-      <Position>9</Position>
-      <Comment>出生日期</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="558" parent="298" name="regtime">
-      <Position>10</Position>
-      <Comment>注册日期</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="559" parent="298" name="likepoemnumber">
-      <Position>11</Position>
-      <Comment>喜欢的诗词数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="560" parent="298" name="likecommentnumber">
-      <Position>12</Position>
-      <Comment>喜欢的评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="561" parent="298" name="commentnumber">
-      <Position>13</Position>
-      <Comment>评论数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="562" parent="298" name="likeusernumber">
-      <Position>14</Position>
-      <Comment>喜欢的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="563" parent="298" name="likedusernumber">
-      <Position>15</Position>
-      <Comment>喜欢你的用户数量，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="564" parent="298" name="avatar">
-      <Position>16</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="565" parent="298" name="assets">
-      <Position>17</Position>
-      <Comment>资产</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="566" parent="298" name="exp">
-      <Position>18</Position>
-      <Comment>经验</Comment>
-      <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="567" parent="298" name="level">
+    <column id="537" parent="307" name="regip">
       <Position>19</Position>
-      <Comment>用户级别0未激活1普通用户2管理员
-</Comment>
-      <DataType>char(1)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="568" parent="299" name="uid">
-      <Position>1</Position>
-      <Comment>用户编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="569" parent="299" name="pid">
-      <Position>2</Position>
-      <Comment>喜欢的诗词编号</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="570" parent="299" name="uname">
-      <Position>3</Position>
-      <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="571" parent="299" name="password">
-      <Position>4</Position>
-      <Comment>密码</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="572" parent="299" name="nickname">
-      <Position>5</Position>
-      <Comment>昵称</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="573" parent="299" name="email">
-      <Position>6</Position>
-      <Comment>邮箱</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="574" parent="299" name="tel">
-      <Position>7</Position>
-      <Comment>手机号码</Comment>
-      <DataType>varchar(20)|0s</DataType>
-    </column>
-    <column id="575" parent="299" name="slogan">
-      <Position>8</Position>
-      <Comment>个性签名</Comment>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="576" parent="299" name="sex">
-      <Position>9</Position>
-      <Comment>性别</Comment>
-      <DataType>char(1)|0s</DataType>
-    </column>
-    <column id="577" parent="299" name="birthday">
-      <Position>10</Position>
-      <Comment>出生日期</Comment>
-      <DataType>datetime|0s</DataType>
-    </column>
-    <column id="578" parent="299" name="regtime">
-      <Position>11</Position>
-      <Comment>注册日期</Comment>
-      <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="579" parent="299" name="regip">
-      <Position>12</Position>
       <Comment>注册ip</Comment>
       <DataType>varchar(20)|0s</DataType>
     </column>
-    <column id="580" parent="299" name="likepoemnumber">
-      <Position>13</Position>
+    <column id="538" parent="308" name="uid">
+      <Position>1</Position>
+      <Comment>喜欢的用户编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="539" parent="308" name="likeduid">
+      <Position>2</Position>
+      <Comment>用户编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="540" parent="308" name="uname">
+      <Position>3</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="541" parent="308" name="nickname">
+      <Position>4</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="542" parent="308" name="email">
+      <Position>5</Position>
+      <Comment>邮箱</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="543" parent="308" name="tel">
+      <Position>6</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="544" parent="308" name="slogan">
+      <Position>7</Position>
+      <Comment>个性签名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="545" parent="308" name="sex">
+      <Position>8</Position>
+      <Comment>性别</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="546" parent="308" name="birthday">
+      <Position>9</Position>
+      <Comment>出生日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="547" parent="308" name="regtime">
+      <Position>10</Position>
+      <Comment>注册日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="548" parent="308" name="likepoemnumber">
+      <Position>11</Position>
       <Comment>喜欢的诗词数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="581" parent="299" name="likecommentnumber">
-      <Position>14</Position>
+    <column id="549" parent="308" name="likecommentnumber">
+      <Position>12</Position>
       <Comment>喜欢的评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="582" parent="299" name="commentnumber">
-      <Position>15</Position>
+    <column id="550" parent="308" name="commentnumber">
+      <Position>13</Position>
       <Comment>评论数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="583" parent="299" name="likeusernumber">
-      <Position>16</Position>
+    <column id="551" parent="308" name="likeusernumber">
+      <Position>14</Position>
       <Comment>喜欢的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="584" parent="299" name="likedusernumber">
-      <Position>17</Position>
+    <column id="552" parent="308" name="likedusernumber">
+      <Position>15</Position>
       <Comment>喜欢你的用户数量，默认0</Comment>
       <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="585" parent="299" name="sid">
-      <Position>18</Position>
-      <Comment>皮肤编号，默认0</Comment>
-      <DataType>bigint(20) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="586" parent="299" name="avatar">
-      <Position>19</Position>
-      <Comment>头像，默认.png</Comment>
-      <DataType>varchar(10)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="587" parent="299" name="assets">
-      <Position>20</Position>
+    <column id="553" parent="308" name="assets">
+      <Position>16</Position>
       <Comment>资产</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="588" parent="299" name="exp">
-      <Position>21</Position>
+    <column id="554" parent="308" name="exp">
+      <Position>17</Position>
       <Comment>经验</Comment>
       <DataType>int(10) unsigned|0s</DataType>
-      <NotNull>1</NotNull>
     </column>
-    <column id="589" parent="299" name="level">
-      <Position>22</Position>
+    <column id="555" parent="308" name="level">
+      <Position>18</Position>
       <Comment>用户级别0未激活1普通用户2管理员
 </Comment>
       <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="556" parent="308" name="regip">
+      <Position>19</Position>
+      <Comment>注册ip</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="557" parent="309" name="pid">
+      <Position>1</Position>
+      <Comment>诗词编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
       <NotNull>1</NotNull>
+    </column>
+    <column id="558" parent="309" name="title">
+      <Position>2</Position>
+      <Comment>诗词题目</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="559" parent="309" name="did">
+      <Position>3</Position>
+      <Comment>朝代编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="560" parent="309" name="aid">
+      <Position>4</Position>
+      <Comment>作者编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="561" parent="309" name="content">
+      <Position>5</Position>
+      <Comment>诗词内容</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="562" parent="309" name="likepoemnumber">
+      <Position>6</Position>
+      <Comment>喜欢数量</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="563" parent="309" name="commentnumber">
+      <Position>7</Position>
+      <Comment>评论数量
+</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="564" parent="309" name="active">
+      <Position>8</Position>
+      <Comment>是否可用1,不可用0，默认1
+</Comment>
+      <DataType>char(1)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="565" parent="309" name="aname">
+      <Position>9</Position>
+      <Comment>作者名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="566" parent="309" name="aactive">
+      <Position>10</Position>
+      <Comment>是否可用1,不可用0
+，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="567" parent="309" name="dname">
+      <Position>11</Position>
+      <Comment>朝代名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="568" parent="309" name="dactive">
+      <Position>12</Position>
+      <Comment>是否可用1,不可用0，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="569" parent="310" name="uid">
+      <Position>1</Position>
+      <Comment>用户编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="570" parent="310" name="pid">
+      <Position>2</Position>
+      <Comment>喜欢的诗词编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="571" parent="310" name="title">
+      <Position>3</Position>
+      <Comment>诗词题目</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="572" parent="310" name="did">
+      <Position>4</Position>
+      <Comment>朝代编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="573" parent="310" name="aid">
+      <Position>5</Position>
+      <Comment>作者编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="574" parent="310" name="content">
+      <Position>6</Position>
+      <Comment>诗词内容</Comment>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="575" parent="310" name="likepoemnumber">
+      <Position>7</Position>
+      <Comment>喜欢数量</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="576" parent="310" name="commentnumber">
+      <Position>8</Position>
+      <Comment>评论数量
+</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="577" parent="310" name="active">
+      <Position>9</Position>
+      <Comment>是否可用1,不可用0，默认1
+</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="578" parent="310" name="aname">
+      <Position>10</Position>
+      <Comment>作者名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="579" parent="310" name="aactive">
+      <Position>11</Position>
+      <Comment>是否可用1,不可用0
+，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="580" parent="310" name="dname">
+      <Position>12</Position>
+      <Comment>朝代名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="581" parent="310" name="dactive">
+      <Position>13</Position>
+      <Comment>是否可用1,不可用0，默认1</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="582" parent="311" name="cid">
+      <Position>1</Position>
+      <Comment>喜欢的诗词编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="583" parent="311" name="uid">
+      <Position>2</Position>
+      <Comment>用户编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="584" parent="311" name="uname">
+      <Position>3</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="585" parent="311" name="nickname">
+      <Position>4</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="586" parent="311" name="email">
+      <Position>5</Position>
+      <Comment>邮箱</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="587" parent="311" name="tel">
+      <Position>6</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="588" parent="311" name="slogan">
+      <Position>7</Position>
+      <Comment>个性签名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="589" parent="311" name="sex">
+      <Position>8</Position>
+      <Comment>性别</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="590" parent="311" name="birthday">
+      <Position>9</Position>
+      <Comment>出生日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="591" parent="311" name="regtime">
+      <Position>10</Position>
+      <Comment>注册日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="592" parent="311" name="likepoemnumber">
+      <Position>11</Position>
+      <Comment>喜欢的诗词数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="593" parent="311" name="likecommentnumber">
+      <Position>12</Position>
+      <Comment>喜欢的评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="594" parent="311" name="commentnumber">
+      <Position>13</Position>
+      <Comment>评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="595" parent="311" name="likeusernumber">
+      <Position>14</Position>
+      <Comment>喜欢的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="596" parent="311" name="likedusernumber">
+      <Position>15</Position>
+      <Comment>喜欢你的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="597" parent="311" name="assets">
+      <Position>16</Position>
+      <Comment>资产</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+    </column>
+    <column id="598" parent="311" name="exp">
+      <Position>17</Position>
+      <Comment>经验</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+    </column>
+    <column id="599" parent="311" name="level">
+      <Position>18</Position>
+      <Comment>用户级别0未激活1普通用户2管理员
+</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="600" parent="312" name="pid">
+      <Position>1</Position>
+      <Comment>喜欢的诗词编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="601" parent="312" name="uid">
+      <Position>2</Position>
+      <Comment>用户编号</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="602" parent="312" name="uname">
+      <Position>3</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="603" parent="312" name="nickname">
+      <Position>4</Position>
+      <Comment>昵称</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="604" parent="312" name="email">
+      <Position>5</Position>
+      <Comment>邮箱</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="605" parent="312" name="tel">
+      <Position>6</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="606" parent="312" name="slogan">
+      <Position>7</Position>
+      <Comment>个性签名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="607" parent="312" name="sex">
+      <Position>8</Position>
+      <Comment>性别</Comment>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="608" parent="312" name="birthday">
+      <Position>9</Position>
+      <Comment>出生日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="609" parent="312" name="regtime">
+      <Position>10</Position>
+      <Comment>注册日期</Comment>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="610" parent="312" name="regip">
+      <Position>11</Position>
+      <Comment>注册ip</Comment>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="611" parent="312" name="likepoemnumber">
+      <Position>12</Position>
+      <Comment>喜欢的诗词数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="612" parent="312" name="likecommentnumber">
+      <Position>13</Position>
+      <Comment>喜欢的评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="613" parent="312" name="commentnumber">
+      <Position>14</Position>
+      <Comment>评论数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="614" parent="312" name="likeusernumber">
+      <Position>15</Position>
+      <Comment>喜欢的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="615" parent="312" name="likedusernumber">
+      <Position>16</Position>
+      <Comment>喜欢你的用户数量，默认0</Comment>
+      <DataType>bigint(20) unsigned|0s</DataType>
+    </column>
+    <column id="616" parent="312" name="assets">
+      <Position>17</Position>
+      <Comment>资产</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+    </column>
+    <column id="617" parent="312" name="exp">
+      <Position>18</Position>
+      <Comment>经验</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+    </column>
+    <column id="618" parent="312" name="level">
+      <Position>19</Position>
+      <Comment>用户级别0未激活1普通用户2管理员
+</Comment>
+      <DataType>char(1)|0s</DataType>
     </column>
   </database-model>
 </dataSource>

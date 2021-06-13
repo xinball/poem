@@ -38,6 +38,26 @@ class Sql
         }
         return $this;
     }
+    /**
+     * 查询条件拼接，使用方式：
+     *
+     * $this->where(['id = 1','and title="Web"', ...])->fetch();
+     * 为防止注入，建议通过$param方式传入参数：
+     * $this->where(['id = :id'], [':id' => $id])->fetch();
+     *
+     * @param array $where 条件
+     * @param array $param 参数
+     * @return $this 当前对象
+     */
+    public function whereor($where = array(), $param = array()): Sql
+    {
+        if ($where) {
+            $this->filter .= "and (" . implode(' or ', $where) .")";
+
+            $this->param = array_merge($this->param,$param);
+        }
+        return $this;
+    }
 
     /**
      * 拼装排序条件，使用方式：
@@ -99,7 +119,8 @@ class Sql
         $sth = $this->formatParam($sth, $this->param);
         $sth->execute();
 
-        return $sth->rowCount();
+        return Db::pdo()->lastInsertId();
+        //return $sth->rowCount();
     }
 
     // 修改数据
@@ -110,34 +131,36 @@ class Sql
         $sth = $this->formatParam($sth, $data);
         $sth = $this->formatParam($sth, $this->param);
         $sth->execute();
-
         return $sth->rowCount();
     }
 
     // 修改数据
     public function execute_page($pager,$arrSql,$countSql,$data=null)
     {
-        $limit=" limit ".($pager->pageNow-1)*$pager->pageSize.",".$pager->pageSize;
         if($data){
-            $sthArr = Db::pdo()->prepare($arrSql.$limit);
-            $sthArr = $this->formatParam($sthArr,$data);
-            $sthArr->execute();
-            $pager->arr=$sthArr->fetchAll();
-
             $sthCount = Db::pdo()->prepare($countSql);
             $sthCount = $this->formatParam($sthCount,$data);
         }else{
-            $sthArr = Db::pdo()->prepare($arrSql.$this->filter.$limit);
-            $sthArr = $this->formatParam($sthArr,$this->param);
-            $sthArr->execute();
-            $pager->arr=$sthArr->fetchAll();
-
             $sthCount = Db::pdo()->prepare($countSql.$this->filter);
             $sthCount = $this->formatParam($sthCount,$this->param);
         }
         $sthCount->execute();
         $pager->rowCount=$sthCount->fetch()['count'];
         $pager->pageCount=ceil($pager->rowCount/$pager->pageSize);
+        if($pager->pageNow<=$pager->pageCount){
+            $limit=" limit ".($pager->pageNow-1)*$pager->pageSize.",".$pager->pageSize;
+        }else{
+            $limit=" limit ".(ceil($pager->rowCount/$pager->pageSize)-1)*$pager->pageSize.",".$pager->pageSize;
+        }
+        if($data){
+            $sthArr = Db::pdo()->prepare($arrSql.$limit);
+            $sthArr = $this->formatParam($sthArr,$data);
+        }else{
+            $sthArr = Db::pdo()->prepare($arrSql.$this->filter.$limit);
+            $sthArr = $this->formatParam($sthArr,$this->param);
+        }
+        $sthArr->execute();
+        $pager->arr=$sthArr->fetchAll();
     }
 
     /**

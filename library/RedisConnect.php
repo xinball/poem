@@ -30,11 +30,14 @@ class RedisConnect{
         return self::$redis->get($key);
     }
 
-    public static function setKey($key,$value){
+    public static function setKey($key,$value,$expire=null){
         if(!self::check()){
             self::connection();
         }
         self::$redis->set($key,$value);
+        if($expire){
+            self::$redis->expire($key,$expire-time());
+        }
     }
 
     public static function getList($key){
@@ -44,10 +47,18 @@ class RedisConnect{
         return self::$redis->lrange($key, 0, -1);
     }
 
+    public static function addList($key,$list){
+        if(!self::check()){
+            self::connection();
+        }
+        foreach ($list as $value)
+            self::$redis->lpush($key,$value);
+    }
     public static function setList($key,$list){
         if(!self::check()){
             self::connection();
         }
+        self::del($key);
         foreach ($list as $value)
             self::$redis->lpush($key,$value);
     }
@@ -87,6 +98,17 @@ class RedisConnect{
         }
         return self::$redis->hSet($key,$hashKey,$value);
     }
-
+    public static function del($key,...$otherKeys){
+        if(!self::check()){
+            self::connection();
+        }
+        return self::$redis->del($key,...$otherKeys);
+    }
+    public static function ttl($key){
+        if(!self::check()){
+            self::connection();
+        }
+        return self::$redis->ttl($key);
+    }
 }
 

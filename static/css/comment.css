@@ -1,0 +1,81 @@
+
+.poem{
+    position: relative;
+    text-align: center;
+    padding: 10px 40px;
+}
+.recommend{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.comment{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.commentUser{
+    width:16%;
+    float:left;
+    z-index: 100;
+}
+.commentUser a{
+    font-size: 13px;
+    font-weight: bold;
+}
+.commentUser img{
+    max-width: 56px;
+    background: #fefefe80;
+    border-radius: 20%;
+}
+.commentContent{
+    width: 83%;
+    float: right;
+    background: #FFFFFF;
+    padding: 10px;
+    z-index: 99;
+}
+.card-body{
+    padding: 8px;
+    /*background: #eeeeee;*/
+}
+.card{
+    border-radius: 20px;
+}
+.commentcard{
+    margin: 20px 0;
+}
+.commentlistcard{
+    margin: 0;
+}
+.editor{
+    padding: 10px;
+}
+.editor #title {
+    text-align: center;
+    font-size: 20px;
+}
+.editor #comment{
+    font-size: 18px;
+}
+.editor .btn-success{
+    font-size: 20px;
+}
+.poemBtn *{
+    font-size: 20px;
+}
+.poemBtn{
+    margin: 10px 0;
+}
+.poemBtn span{
+    font-size: 20px;
+}
+.commentBtn *{
+    font-size: 14px;
+}
+.commentBtn span{
+    font-size: 14px;
+}
+.commentBtn button{
+    padding: 5px;
+}

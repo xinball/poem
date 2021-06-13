@@ -41,7 +41,6 @@ class User extends Model{
     protected $primary = 'uid';
 
 
-
     public function checkUser($uname,$password,&$uid): bool
     {
         $sql="select uid,password from `$this->table` where `uname`=:uname";
@@ -49,15 +48,98 @@ class User extends Model{
         $sth = $this->formatParam($sth, [':uname' => "$uname"]);
         $sth->execute();
         $user=$sth->fetch();
-        $uid=$user['uid'];
-        if(md5($password)==$user['password']){
-            return true;
+        if($user!=null){
+            $uid=$user['uid'];
+            if(md5($password)==$user['password']){
+                return true;
+            }
+        }else{
+            $uid='';
         }
         return false;
     }
 
     public function deleteUser(){
 
+    }
+
+    public function addUidPid($uid,$pid): int
+    {
+        $sql = "insert into `likepoem`(uid,pid) values (?,?)";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$pid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function delUidPid($uid,$pid): int
+    {
+        $sql = "delete from `likepoem` where uid = ? and pid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$pid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function getUidPid($uid,$pid): int
+    {
+        $sql = "select count(1) value from `likepoem` where uid = ? and pid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$pid]);
+        $sth->execute();
+        return $sth->fetch()['value'];
+    }
+    public function addUidCid($uid,$cid): int
+    {
+        $sql = "insert into `likecomment`(uid,cid) values (?,?)";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$cid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function delUidCid($uid,$cid): int
+    {
+        $sql = "delete from `likecomment` where uid = ? and cid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$cid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function getUidCid($uid,$cid): int
+    {
+        $sql = "select count(1) value from `likecomment` where uid = ? and cid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$cid]);
+        $sth->execute();
+        return $sth->fetch()['value'];
+    }
+    public function addUidUid($uid,$likeuid): int
+    {
+        $sql = "insert into `likeuser`(uid,likeuid) values (?,?)";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$likeuid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function delUidUid($uid,$likeuid): int
+    {
+        $sql = "delete from `likeuser` where uid = ? and likeuid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$likeuid]);
+        $sth->execute();
+        return $sth->rowCount();
+    }
+    public function getUidUid($uid,$likeuid): int
+    {
+        $sql = "select count(1) value from `likeuser` where uid = ? and likeuid = ?";
+        $sth = Db::pdo()->prepare($sql);
+        $sth = $this->formatParam($sth, [$uid,$likeuid]);
+        $sth->execute();
+        return $sth->fetch()['value'];
+    }
+
+    public function getUserList($pager){
+        $arrSql="select * from `user`";
+        $countSql="select count(uid) `count` from `user`";
+        $this->execute_page($pager,$arrSql,$countSql);
     }
 
     public function getLikeUser($pager){
@@ -80,5 +162,11 @@ class User extends Model{
         $arrSql="select * from `getUserLikeComment`";
         $countSql="select count(uid) `count` from `getUserLikeComment`";
         $this->execute_page($pager,$arrSql,$countSql);
+    }
+    public function getUserCount(){
+        $sql="select count(uid) value from `user` where level!='-'";
+        $sth = Db::pdo()->prepare($sql);
+        $sth->execute();
+        return $sth->fetch();
     }
 }

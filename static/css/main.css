@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: SIMLI;
+    src:url("/static/ttf/SIMLI.TTF");
+    /*隶书*/
+}
+@font-face {
+    font-family: STXINGKA;
+    src:url("/static/ttf/STXINGKA.TTF");
+    /*行楷*/
+}
+@font-face {
+    font-family: SIMKAI;
+    src:url("/static/ttf/SIMKAI.TTF");
+    /*楷体*/
+}
+@font-face {
+    font-family: BRADHITC;
+    src:url("/static/ttf/BRADHITC.TTF");
+    /*BRADHITC*/
+}
+@font-face {
+    font-family: CURLZ___;
+    src:url("/static/ttf/CURLZ___.TTF");
+    /*CURLZ___*/
+}

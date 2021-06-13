@@ -36,10 +36,11 @@ class Xbphp
         $controllerName = $this->config['defaultController'];
         $actionName = $this->config['defaultAction'];
 
-        $url = $_SERVER['REQUEST_URI'];
+        $param = array();
+        $url = urldecode($_SERVER['REQUEST_URI']);
         // 清除?之后的内容
         $position = strpos($url, '?');
-        $params=explode('&', $position === false ? "" : substr($url, $position+1, strlen($url)-$position-1));
+        //$params=explode('&', $position === false ? "" : substr($url, $position+1, strlen($url)-$position-1));
         $url = $position === false ? $url : substr($url, 0, $position);
         // 删除前后的“/”
         $url = trim($url, '/');
@@ -59,16 +60,34 @@ class Xbphp
 
             // 获取URL参数
             array_shift($urlArray);
-            //$param = $urlArray ?: array();
+            $param = $urlArray ?: array();
+        }
+
+        if($controllerName!="Admin"){
+            $status=RedisConnect::getHashKey("basic","status");
+            if($status!="1"){
+                $controller = 'app\\controllers\\AdminController';
+                $dispatch = new $controller("admin", "login");
+                call_user_func_array(array($dispatch, "login"), $param);
+                exit();
+            }
         }
 
         // 判断控制器和操作是否存在
         $controller = 'app\\controllers\\'. $controllerName . 'Controller';
         if (!class_exists($controller)) {
-            exit($controller . '控制器不存在');
+            $controller = 'app\\controllers\\IndexController';
+            $dispatch = new $controller("index", "index");
+            call_user_func_array(array($dispatch, "index"), $param);
+            exit();
+            //exit($controller . '控制器不存在');
         }
         if (!method_exists($controller, $actionName)) {
-            exit($actionName . '方法不存在');
+            $controller = 'app\\controllers\\IndexController';
+            $dispatch = new $controller("index", "index");
+            call_user_func_array(array($dispatch, "index"), $param);
+            exit();
+            //exit($actionName . '方法不存在');
         }
 
         // 如果控制器和操作名存在，则实例化控制器，因为控制器对象里面
@@ -78,7 +97,8 @@ class Xbphp
 
         // $dispatch保存控制器实例化后的对象，我们就可以调用它的方法，
         // 也可以像方法中传入参数，以下等同于：$dispatch->$actionName($param)
-        call_user_func_array(array($dispatch, $actionName), array($params));
+        //array_splice($param,0,0,[sizeof($param)]);
+        call_user_func_array(array($dispatch, $actionName), $param);//array($params)
     }
 
     // 检测开发环境

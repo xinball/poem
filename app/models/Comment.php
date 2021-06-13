@@ -7,17 +7,6 @@ use xbphp\db\Db;
 
 class Comment extends Model
 {
-/*
-    public $cid;//bigint 20
-    public $user;//User
-    public $poem;//Poem
-    public $public;//bool =1
-    public $title;//string 255
-    public $content;//string
-    public $sendtime;//DateTime
-    public $altertime;//DateTime
-*/
-
     /**
      * 自定义当前模型操作的数据库表名称，
      * 如果不指定，默认为类名称的小写字符串，
@@ -40,5 +29,12 @@ class Comment extends Model
         $countSql="select count(cid) `count` from `getComment`";
         $this->execute_page($pager,$arrSql,$countSql);
     }
+
+    public function getCommentLikedUser($pager){
+        $arrSql="select * from `getCommentLikedUser`";
+        $countSql="select count(cid) `count` from `getCommentLikedUser`";
+        $this->execute_page($pager,$arrSql,$countSql);
+    }
+
 
 }

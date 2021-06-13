@@ -4,6 +4,7 @@
 </style>
 </head>
 <body>
+
 <?php
 foreach ($poems as $poem){
     echo "题目：<a href=\"/poem?pid=".$poem['pid']."\">".$poem['title']."</a>&nbsp;&nbsp;&nbsp;".

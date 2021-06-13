@@ -20,4 +20,9 @@ class Dynasty extends Model
     // 数据库主键
     protected $primary = 'did';
 
+    public function getDynastyList($pager){
+        $arrSql="select * from `getDynasty`";
+        $countSql="select count(did) `count` from `getDynasty`";
+        $this->execute_page($pager,$arrSql,$countSql);
+    }
 }

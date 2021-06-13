@@ -1,5 +1,5 @@
 
 <img src="/img/bg/qljst<?php try {
-    echo random_int(1, 15);
+    echo date('d')%15+1;
 } catch (Exception $e) {
-} ?>.png" class="bgImg" />
+} ?>.webp" class="bgImg" />
